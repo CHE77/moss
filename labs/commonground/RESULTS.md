@@ -10,6 +10,8 @@
 
 Дополнение от **12.10.2026**: выполнен [анализ Requests and Offers](REQUESTS_AND_OFFERS_ASSESSMENT.md). Release webhApp v0.6.0-alpha.1 скачан, SHA256 совпал с digest GitHub, bundle распакован hc 0.6.1. Установка в Moss, сборка dev и функциональный цикл NOT RUN; количество установленных tools остаётся 17. [Метаданные проверки](evidence/requests-and-offers-assessment.json).
 
+Дополнение по CFN от **12.10.2026**: [источники и оценка производственного контура](CARBON_FARM_NETWORK_ASSESSMENT.md). Прочитаны установленный Inventory, Plans и несохранённый экран Planning; запас, план, события и платежи не создавались. Реализованные в исходниках инвентарь/рецепты/планирование не считаются PASS сквозного цикла. [Публичные наблюдения](evidence/cfn-assessment.json).
+
 ## Окружение и версии
 
 | Компонент | Фактически проверено |
