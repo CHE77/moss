@@ -18,7 +18,9 @@ function sandbox(t) {
   for (const name of ['run.mjs', 'cycle.json', 'hrea-cycle.ts']) copyFileSync(resolve(source, name), resolve(lab, name));
   writeFileSync(resolve(moss, 'package.json'), JSON.stringify({ version: 'test' }));
   writeFileSync(resolve(moss, 'moss.config.json'), JSON.stringify({ holochain: 'test' }));
-  const run = action => spawnSync(process.execPath, [resolve(lab, 'run.mjs'), action], { encoding: 'utf8' });
+  const run = (action, options = [], env = {}) => spawnSync(process.execPath, [resolve(lab, 'run.mjs'), action, ...options], {
+    encoding: 'utf8', env: { ...process.env, ...env },
+  });
   const git = args => {
     const result = spawnSync('git', args, { cwd: hrea, encoding: 'utf8' });
     assert.equal(result.status, 0, result.stderr);
@@ -32,6 +34,35 @@ test('inspect and unsupported actions never create or alter a hREA checkout', t 
   assert.equal(s.run('inspect').status, 0);
   assert.equal(s.run('not-an-action').status, 1);
   assert.equal(existsSync(s.hrea), false);
+});
+
+test('current environment rejects Moss runtime and propagates upstream failures', t => {
+  const s = sandbox(t);
+  mkdirSync(s.hrea);
+  s.git(['init', '-q']);
+  writeFileSync(resolve(s.hrea, 'README.md'), 'fixture');
+  s.git(['add', '.']);
+  s.git(['-c', 'user.name=Lab Test', '-c', 'user.email=lab-test@example.invalid', 'commit', '-qm', 'test fixture']);
+  const fixture = JSON.parse(readFileSync(resolve(s.lab, 'cycle.json'), 'utf8'));
+  fixture.hreaCommit = s.git(['rev-parse', 'HEAD']);
+  writeFileSync(resolve(s.lab, 'cycle.json'), JSON.stringify(fixture));
+  const bin = resolve(s.root, 'bin');
+  mkdirSync(bin);
+  const trace = resolve(s.root, 'commands.log');
+  const script = (name, body) => writeFileSync(resolve(bin, name), `#!/bin/sh\n${body}\n`, { mode: 0o755 });
+  const env = { PATH: `${bin}:${process.env.PATH}`, LAB_RUN_TRACE: trace };
+  script('holochain', 'echo "holochain 0.6.1"');
+  script('hc', 'echo "Initialising log output formatting with option Log"; echo "holochain_cli 0.7.0"');
+  script('yarn', 'printf "%s\\n" "$*" >> "$LAB_RUN_TRACE"; [ "$1" != build ] || exit 23');
+  const rejected = s.run('build-hrea', ['--current-env'], env);
+  assert.equal(rejected.status, 1);
+  assert.match(rejected.stderr, /requires holochain 0.7.x/);
+  assert.equal(existsSync(trace), false);
+  script('holochain', 'echo "holochain 0.7.0"');
+  const failedBuild = s.run('build-hrea', ['--current-env'], env);
+  assert.equal(failedBuild.status, 1);
+  assert.match(failedBuild.stderr, /bash exited with 23/);
+  assert.equal(readFileSync(trace, 'utf8'), 'install --frozen-lockfile\nbuild\n');
 });
 
 test('prepare refuses an existing unrelated directory and preserves its content', t => {

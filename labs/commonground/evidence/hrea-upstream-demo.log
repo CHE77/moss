@@ -1,0 +1,139 @@
+holochain 0.7.0
+Initialising log output formatting with option Log
+holochain_cli 0.7.0
+yarn run v1.22.22
+$ yarn workspace hrea-acceptance run demo
+$ yarn run fresh && RUST_LOG=error tsx src/run.ts --demo
+$ rm -rf node_modules/@valueflows/vf-graphql-holochain
+
+🌱 hREA acceptance demo — ValueFlows stories run against a live conductor
+
+
+── core ──
+  Aline (uhCkkNrL9D3j…) will offer vegetables; Bob (uhCkkqratlJt…) will request them.
+✓ Create two Person agents (Aline, Bob)
+  “Fresh vegetables” (a good) and “Local currency” (mediumOfExchange: true) both exist as specifications.
+✓ Create ResourceSpecifications with VF 1.0 booleans
+  Aline published an offer: 5 vegetables for 10 local currency.
+✓ Publish an OFFER: primary + reciprocal intents under purpose="offer"
+✓ Re-read the offer by id — stored fields equal inputs
+  Guard said no: Source chain error: InvalidCommit error: Validation failed while committing: Proposal purpose cannot be changed after creation
+✓ REJECTED: updateProposal changing purpose offer→request (immutability)
+  Bob published a request: he needs 3 vegetables.
+✓ Publish a REQUEST: purpose="request"
+  offers → 1 node(s), requests → 1 node(s), no cross-leak.
+✓ offers/requests queries partition by purpose index
+  Unfiltered list serves 2 proposal(s) and 3 intent(s) — the path consumers rely on.
+✓ Unfiltered proposals/intents list queries return created records
+  The basket physically moved: transfer of 5 vegetables from Aline to Bob was recorded.
+✓ Record a transfer EconomicEvent (Aline → Bob)
+  Bob paid 10 currency; the claim shows it via Claim.settledBy — the VF 1.0 settlement shape, no reified Settlement entity.
+✓ Claim triggered by the transfer, settled by a reciprocal event (Claim.settledBy)
+  A process plans its harvest: Process.intendedOutputs resolves — this zome fn did not exist before this review.
+✓ Process.intendedOutputs round-trips (missing zome fn fixed)
+  Guard said no: Variable "$p" got invalid value "banana" at "p.purpose"; Value "banana" does not exist in "ProposalPurpose" enum.
+✓ REJECTED: proposal with purpose="banana" (schema enum, before the DNA)
+  Guard said no: Source chain error: InvalidCommit error: Validation failed while committing: EconomicEvent action 'banana' is not a valid ValueFlows action
+✓ REJECTED: EconomicEvent with action="banana" (VF action vocabulary gate)
+  A canonical VF 1.0 action (copy — unstable tier) is accepted by the DHT gate, alongside combine and separate.
+✓ ACCEPTED: EconomicEvent with action="copy" (VF 1.0 vocabulary completeness)
+  The zome serves all 21 actions (19 canonical VF 1.0 + 2 legacy), and combine/separate round-trip through every layer.
+✓ Action vocabulary parity: 21 ids served; combine/separate exercised end-to-end
+  Guard said no: Source chain error: InvalidCommit error: Validation failed while committing: EconomicEvent has_beginning must not be after has_end
+✓ REJECTED: EconomicEvent with hasBeginning > hasEnd (VF temporal rule)
+
+── rea-flows ──
+✓ REA setup: two agents and a resource specification
+  Alice baked: a produce event birthed "Batch #1 loaves" into inventory.
+✓ produce event creates an inventoried EconomicResource
+✓ explicit conformsTo on the resource params is NOT overridden by event inheritance
+✓ economicResource(id) + economicResources list reflect the new resource
+  The ledger holds: 10 baked + 5 found − 3 lost − 4 eaten = 8 loaves on both quantities.
+✓ accounting arithmetic: produce 10 → raise 5 → lower 3 → consume 4 leaves 8
+  A process consumed a loaf and produced croutons — both flows resolve from the process.
+✓ process observedInputs/observedOutputs resolve around consume/produce events
+  Alice promised 2 loaves to Bob and delivered: the commitment shows its fulfilling event.
+✓ commitment fulfilledBy: event fulfills commitment, reverse resolves
+  Bob's want got a promise: intent.satisfiedBy lists the commitment.
+✓ intent satisfiedBy: commitment satisfies intent, reverse resolves
+✓ agreement.commitments and agreement.economicEvents resolve
+  The Q3 plan knows its process and its independent demand.
+✓ plan: plannedWithin process + independentDemandOf commitment resolve from plan
+  A claim points back at the event that earned it.
+✓ claim: created against a past event, triggeredBy resolves, listed in claims
+  Both sides of an observation can be corrected after the fact.
+✓ economicEvent and economicResource updates persist and advance revisions
+
+── crud ──
+✓ unit create + read round-trip (label/symbol/omUnitIdentifier)
+✓ unit partial update: changed field persists, omitted fields survive
+  The kilogram came, got a French spelling, and left — full unit CRUD.
+✓ unit delete removes it from the units collection
+✓ people/organizations/agents queries partition agent types
+  Tripwire holds: the social-graph surface is schema-only for now (documented in the review report).
+✓ KNOWN GAP: agentRelationship mutations advertised but unimplemented in the DNA
+✓ updateResourceSpecification / updateIntent / updateProposal persist changes
+✓ deleted proposal and intent disappear from collections
+  Walked 1 pages of agents (10 total), cursors clean, no duplicates.
+✓ pagination: cursor walk over agents visits all, no duplicates
+  Montréal round-trips through the adapter; the WGS84 bounds themselves are asserted in tests/sweettest.
+✓ spatialThing round-trip through the adapter
+✓ agreementBundle lists its member agreements
+✓ temporal fields round-trip on proposal and process
+  The reason survives the trip up: Source chain error: InvalidCommit error: Validation failed while committing: Claim action 'banana' is not a valid ValueFlows action
+✓ the adapter surfaces an integrity rejection with its reason intact
+✓ actions collection lists the VF vocabulary and each is fetchable by id
+  A currency and a one-off carving, told apart by two booleans.
+✓ resourceSpecification substitutable/mediumOfExchange round-trip both ways
+✓ meta.retrievedRevision advances on update and matches on re-read
+✓ agreement and plan deletes remove them from their collections
+  The co-op dissolved, and the register forgot it.
+✓ agent delete removes the organization from the agents collection
+  Seven entities, each updated by one field, each keeping the rest.
+✓ sparse update leaves omitted fields alone on every entity with a required field
+
+── recipes ──
+✓ recipeExchange create + read round-trip
+✓ recipeProcess create + read round-trip
+  An exchange knows both halves of the bargain, and keeps them apart.
+✓ recipeExchange lists its clauses and reciprocal clauses separately
+✓ recipeFlow create carries quantity, roles and both process links
+✓ recipeProcess recipeInputs/recipeOutputs resolve from both ends
+✓ recipeFlow update advances the revision and keeps the id
+  The recipe was written, revised, and torn up — full RecipeFlow CRUD.
+✓ recipeFlow delete succeeds against the current revision
+
+── regressions ──
+✓ regression setup: two agents and a specification
+✓ agreement create round-trips name and note, and reads back by id
+  An agreement was renamed twice and the second rename is what survives.
+✓ agreement updates twice in a row, the second built on the first revision
+✓ commitment update persists the note, keeps its id, advances the revision
+✓ plan updates twice in a row and the latest name is what reads back
+  An intent was satisfied by a direct event rather than a promise, and the reverse link resolves.
+✓ intent observedBy: an event satisfies an intent and the reverse resolves
+  A plan counts a commitment made outside any process, and a process knows what it has promised in and out.
+✓ plan nonProcessCommitments and process committedInputs/committedOutputs resolve
+  Three more events hit the same bin and it is still one row, not four.
+✓ a resource is listed exactly once after repeated events against it
+✓ economicEvents collection lists events with their own fields
+✓ spatialThings collection lists a created location
+✓ agreementBundles collection lists a created bundle with its name
+  Agents can be walked backwards, not only forwards.
+✓ agents pagination: last and before return the tail and the range under it
+
+── forward-refs ──
+✓ forward-ref setup: two people, an organization, a specification
+  An event names the process it feeds, and reading that reference back returns the process itself.
+✓ economicEvent inputOf and outputOf resolve to the Process, not to an event
+✓ economicEvent resourceConformsTo resolves to the ResourceSpecification
+✓ provider and receiver resolve to the named agents on both event and commitment
+  A resource placed inside another one reports its container.
+✓ economicResource containedIn resolves to the containing resource
+  Asking for an organization by a person id is refused, and the other way round.
+✓ organization and person queries accept their own kind and reject the other
+
+ACCEPTANCE PASSED — 71/71 steps green
+Done in 25.04s.
+
+EXIT_CODE=0

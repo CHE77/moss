@@ -30,9 +30,9 @@ async function main() {
       'mutation ($v: AgentCreateParams!) { res: createOrganization(organization: $v) { agent { id } } }', { v: { name } });
     return result.res.agent.id;
   }
-  async function unit(label: string, symbol: string): Promise<string> {
+  async function unit(label: string, symbol: string, omUnitIdentifier: string): Promise<string> {
     const result = await mutate<Created<'unit'>>(
-      'mutation ($v: UnitCreateParams!) { res: createUnit(unit: $v) { unit { id } } }', { v: { label, symbol } });
+      'mutation ($v: UnitCreateParams!) { res: createUnit(unit: $v) { unit { id } } }', { v: { label, symbol, omUnitIdentifier } });
     return result.res.unit.id;
   }
   async function specification(name: string): Promise<string> {
@@ -69,9 +69,9 @@ async function main() {
     const baker = (await mutate<Created<'agent'>>(
       'mutation ($v: AgentCreateParams!) { res: createPerson(person: $v) { agent { id } } }',
       { v: { name: 'CommonGround Lab — Пекарь' } })).res.agent.id;
-    const kg = await unit('kilogram', 'kg');
-    const piece = await unit('piece', 'pc');
-    const hour = await unit('hour', 'h');
+    const kg = await unit('kilogram', 'kg', 'kilogram');
+    const piece = await unit('piece', 'pc', 'one');
+    const hour = await unit('hour', 'h', 'hour');
     const flourSpec = await specification('Мука');
     const breadSpec = await specification('Хлеб');
     const workSpec = await specification('Труд пекаря');
@@ -93,6 +93,7 @@ async function main() {
         resourceQuantity: { hasNumericalValue: 10, hasUnit: piece }, satisfies: intent,
         independentDemandOf: plan } })).res.commitment.id;
 
+    console.log(JSON.stringify({ stage: 'demand linked', bakery, cooperative, baker, kg, piece, hour, intent, plan, process, commitment }));
     stage = 'opening inventory';
     // Opening inventory uses raise, not a fictitious flour-production process.
     const flour = (await event({ action: 'raise', provider: bakery, receiver: bakery,
@@ -116,6 +117,7 @@ async function main() {
     });
     assert.equal(Number(effort.data.economicEvent.effortQuantity.hasNumericalValue), 3, 'Work must record three hours');
     assert.equal(effort.data.economicEvent.effortQuantity.hasUnit.id, hour, 'Work unit must be hours');
+    console.log(JSON.stringify({ stage, event: worked.economicEvent.id, effort: effort.data.economicEvent.effortQuantity }));
 
     stage = 'produce bread';
     const produced = await event({ action: 'produce', provider: bakery, receiver: bakery,
@@ -133,6 +135,7 @@ async function main() {
     assert(flow.data.process.observedInputs.some(e => e.id === consumed.economicEvent.id), 'Consumed flour not linked to process');
     assert(flow.data.process.observedInputs.some(e => e.id === worked.economicEvent.id), 'Work not linked to process');
     assert(flow.data.process.observedOutputs.some(e => e.id === produced.economicEvent.id), 'Bread not linked to process');
+    console.log(JSON.stringify({ stage, process, ...flow.data.process }));
 
     stage = 'delivery';
     const destination = (await event({ action: 'raise', provider: cooperative, receiver: cooperative,
@@ -150,6 +153,7 @@ async function main() {
       variables: { id: commitment }, fetchPolicy: 'no-cache',
     });
     assert(fulfillment.data.commitment.fulfilledBy.some(e => e.id === delivered.economicEvent.id), 'Delivery not linked to commitment');
+    console.log(JSON.stringify({ stage, commitment, event: delivered.economicEvent.id, ...fulfillment.data.commitment }));
 
     stage = 'two-sided transfer accounting';
     // A recorded transfer is insufficient: both inventories must actually change.

@@ -8,7 +8,8 @@
 
 | Компонент | Фиксация | Как запускается |
 | --- | --- | --- |
-| Moss | исходный commit `4a87b935f013491714f347b0c609c391886b969b`, package 0.15.6, Holochain `0.6.1-rc.7` | уже собранный локальный форк; отдельная группа или три dev-профиля |
+| Moss checkout | исходный commit `4a87b935f013491714f347b0c609c391886b969b`, package 0.15.6, Holochain `0.6.1-rc.7` | исходники стенда; проверен `yarn typecheck` |
+| Moss desktop в живой проверке | официальный AppImage v0.15.8, встроенный Holochain 0.6.1 | три сохранённых тестовых профиля; попарные проверки |
 | hREA | tag `happ-0.5.0-beta.1`, commit `79c8d4fb98c4f7f9a8cf3f7dd69690d6d1334d85`, Holochain 0.7 | отдельный checkout и conductor |
 | Unyt и инструменты Moss | фактически доступные совместимые выпуски | записать версии и источник каждого установленного инструмента |
 
@@ -36,11 +37,35 @@ node labs/commonground/run.mjs ui-hrea
 ```bash
 node labs/commonground/run.mjs demo-hrea
 node labs/commonground/run.mjs test-hrea
+node labs/commonground/run.mjs repro-hrea
 ```
 
 `demo-hrea` запускает демонстрацию самих разработчиков hREA. `test-hrea` — наш хлебный цикл. Оба используют изолированный временный harness: их данные удаляются после теста и не появляются в отдельно запущенном UI. В нашем API-тесте один Holochain-подписант и три экономических актора; это не тест трёх P2P-узлов.
 
+`repro-hrea` — минимальная отдельная проверка передачи: выпуск 10 штук у отправителя, начальный нулевой запас получателя, один `transfer`, чтение обоих остатков без cache. Она не добавляет компенсирующих событий. В живой проверке опубликованного hApp передача оставила 10/0 вместо 0/10; см. [вывод и ограничения](RESULTS.md).
+
 Runner не делает `reset` или `checkout` в существующем каталоге, проверяет точный commit hREA и не перезаписывает отличающийся файл теста. Для обновления собственного изменённого теста сначала сравнить его с `labs/commonground/hrea-cycle.ts`.
+
+Если окружение уже подготовлено отдельно, команды сборки, UI, demo и test принимают `--current-env`:
+
+```bash
+holochain --version
+hc --version
+lair-keystore --version
+kitsune2-bootstrap-srv --version
+rustc --version
+node --version
+yarn --version
+node labs/commonground/run.mjs build-hrea --current-env
+node labs/commonground/run.mjs demo-hrea --current-env
+node labs/commonground/run.mjs test-hrea --current-env
+node labs/commonground/run.mjs repro-hrea --current-env
+node labs/commonground/run.mjs ui-hrea --current-env
+```
+
+В этом режиме runner использует программы из `PATH`, проверяя Holochain и hc 0.7.x до запуска. Закреплённый checkout и защита изменённого теста сохраняются. Это позволяет использовать официальные бинарники того же выпуска, если полный `nix develop` требует сборки conductor из исходников. Источник бинарников, SHA256 и версии остальных программ нужно записать в RESULTS; проверка версии сама по себе не проверяет происхождение бинарника. Режим по умолчанию остаётся `nix develop`. Установка зависимостей использует `--frozen-lockfile`.
+
+Для проверенного Holochain 0.7.0 нужен Lair 0.7.1; Lair 0.6.3 из Moss вызывает отказ conductor. В отдельном окружении использованы `kitsune2-bootstrap-srv` 0.5.0 и Rust 1.95.0 с `wasm32-unknown-unknown`. Conductor и keystore Moss оставляются прежними.
 
 ## Участники и инструменты Moss
 
@@ -60,7 +85,7 @@ yarn electron-vite dev -- --dev-config weave.dev.config.commonground.ts --agent-
 
 Роли: 1 — кооператив; 2 — пекарня; 3 — координатор. В dev-режиме Moss создаёт временные профили; повторный запуск не проверяет восстановление прежней идентичности или данных. Сохранение после перезапуска проверять отдельно в обычных тестовых профилях. Публичный `networkSeed` в конфигурации предназначен только для тестовых данных.
 
-Инструменты устанавливаются вручную. В проверенной дополнительной curation `test-0.15/default` перечислены Vines и Files. Наличие KanDo, Converge, Who's In?, Acorn или Unyt в библиотеке данной версии не подтверждено. Добавить совместимый каталог или пакет из уже работающей установки, записав источник и версию. Если совместимого выпуска нет, отметить `BLOCKED: compatibility`; не подменять его несовместимым пакетом и не считать соответствующую проверку пройденной.
+В CommonGround Lab установлены 17 совместимых выпусков из каталогов Moss 0.15, включая KanDo, Converge, Who's In?, Acorn, Unyt и Carbon Farm Network App. Версии, источники и SHA256 записаны в [evidence/tools.json](evidence/tools.json); проверенные действия и ограничения — в [RESULTS.md](RESULTS.md). Установка остальных инструментов подтверждает доступность пакета; их функции требуют отдельных проверок. Для повторения активировать установленные инструменты в каждом новом профиле группы.
 
 | Инструмент | Действие в цикле | Что проверить |
 | --- | --- | --- |
@@ -90,7 +115,7 @@ yarn electron-vite dev -- --dev-config weave.dev.config.commonground.ts --agent-
 
 API-тест читает данные обратно без Apollo cache, проверяет оба вида остатков (`accountingQuantity` и `onhandQuantity`), единицу труда и обратные связи процесса/обязательства. Он завершается ненулевым кодом при несовпадении.
 
-При статическом чтении закреплённого кода hREA обнаружен повод отдельно проверить передачу: обработчик `DecrementIncrement` оставляет количество исходного ресурса прежним, а обновление `to_resource_inventoried_as` в функции создания события не обнаружено. Это ещё не результат запуска. Если проверка двух остатков упадёт, сохранить вывод и создать минимальный воспроизводимый пример; не заменять передачу искусственными `raise`/`lower`, чтобы получить зелёный тест. Исходник: <https://github.com/h-REA/hREA/blob/79c8d4fb98c4f7f9a8cf3f7dd69690d6d1334d85/dnas/hrea/zomes/coordinator/hrea/src/rea_economic_event.rs>.
+Закреплённый код hREA имеет обработчик `DecrementIncrement`, который сохраняет количество исходного ресурса прежним. Живой цикл и минимальный `repro-hrea` подтвердили неизменившиеся остатки 10/0 после `transfer` на опубликованном и собранном hApp. Вывод сохранён в [RESULTS.md](RESULTS.md); компенсирующие `raise`/`lower` не применялись. Исходник для разбора: <https://github.com/h-REA/hREA/blob/79c8d4fb98c4f7f9a8cf3f7dd69690d6d1334d85/dnas/hrea/zomes/coordinator/hrea/src/rea_economic_event.rs>.
 
 Наличие записи `transfer` или ссылки `fulfills` само по себе не доказывает корректный учёт. Для успеха должны одновременно сходиться остатки, единицы измерения и связи.
 
@@ -125,15 +150,14 @@ Unyt документирует P2P-валюты, кредитные лимит�
 - **hREA как экономическое ядро:** точность остатков и связей в API; отдельно — удобство интерфейса и многопользовательская работа.
 - **Unyt как расчётный модуль:** пройденные финансовые проверки, доступность исходников/API и возможность задать наши правила.
 
-В репозитории подготовлен сценарий и проверен runner. Живой Moss/hREA/Unyt-цикл в окружении пользователя ещё не выполнен. Решение о переходе CommonGround принимать после результатов, особенно передачи ресурсов и требований P2P-финансов.
+Результаты живой проверки, ошибки и непройденные требования фиксируются в [RESULTS.md](RESULTS.md). Решение о переходе CommonGround принимать после результатов, особенно передачи ресурсов и требований P2P-финансов.
 
 Проверки без Nix, зависимостей Moss и запущенного conductor:
 
 ```bash
 node --test labs/commonground/run.test.mjs
 node --check labs/commonground/run.mjs
-node --check labs/commonground/hrea-cycle.ts
-node --check weave.dev.config.commonground.ts
+node labs/commonground/check-syntax.mjs
 ```
 
-Проверка `.ts` через Node 24 проверяет синтаксис, но не заменяет `yarn typecheck` Moss или сборку и реальные вызовы API hREA. Официальные инструкции hREA: <https://github.com/h-REA/hREA/blob/happ-0.5.0-beta.1/docs/getting-started.md>.
+Проверка `.ts` через Node 24 сначала удаляет типы штатным `stripTypeScriptTypes`, затем проверяет синтаксис ES-модуля без исполнения и загрузки зависимостей. Прямой `node --check file.ts` в проверенном Node 24.21.0 не удаляет типы. Проверка синтаксиса не заменяет `yarn typecheck` Moss или сборку и реальные вызовы API hREA. Официальные инструкции hREA: <https://github.com/h-REA/hREA/blob/happ-0.5.0-beta.1/docs/getting-started.md>.

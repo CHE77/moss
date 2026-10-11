@@ -1,0 +1,13 @@
+✔ inspect and unsupported actions never create or alter a hREA checkout (99.429739ms)
+✔ current environment rejects Moss runtime and propagates upstream failures (150.985394ms)
+✔ prepare refuses an existing unrelated directory and preserves its content (61.647322ms)
+✔ prepare rejects another commit without resetting it or erasing dirty work (128.029936ms)
+✔ prepare at a pinned commit is repeatable and refuses a changed cycle file (197.575529ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 725.066678

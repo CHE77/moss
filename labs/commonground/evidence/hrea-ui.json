@@ -1,0 +1,54 @@
+{
+  "formPicker": {
+    "url": "http://localhost:8888/",
+    "initial": "- img \"Logo\"\n- heading \"hREA explorer\" [level=1]\n- button \"+ Window\"\n- text: foo\n- 'heading \"Step 1: Select a view type\" [level=1]'\n- button \"Form\"\n- button \"Table\"\n- button \"Graph\"",
+    "text": "hREA explorer\n+ Window\nfoo\nStep 2: Select a form type\nOrganization\nPlan\nAgreement\nCommitment\nEconomicEvent\nProcessSpecification\nProcess\nProposal\nIntent\nUnit",
+    "aria": "- img \"Logo\"\n- heading \"hREA explorer\" [level=1]\n- button \"+ Window\"\n- text: foo\n- 'heading \"Step 2: Select a form type\" [level=1]'\n- button \"Organization\"\n- button \"Plan\"\n- button \"Agreement\"\n- button \"Commitment\"\n- button \"EconomicEvent\"\n- button \"ProcessSpecification\"\n- button \"Process\"\n- button \"Proposal\"\n- button \"Intent\"\n- button \"Unit\"",
+    "errors": []
+  },
+  "organizationForm": {
+    "url": "http://localhost:8888/",
+    "initial": "- img \"Logo\"\n- heading \"hREA explorer\" [level=1]\n- button \"+ Window\"\n- text: foo\n- 'heading \"Step 1: Select a view type\" [level=1]'\n- button \"Form\"\n- button \"Table\"\n- button \"Graph\"",
+    "text": "hREA explorer\n+ Window\nfoo\nCreate Organization\nName\n+ add a field\nimage\nnote\nclassifiedAs\nReset\nSubmit",
+    "aria": "- img \"Logo\"\n- heading \"hREA explorer\" [level=1]\n- button \"+ Window\"\n- text: foo\n- heading \"Create Organization\" [level=1]\n- text: Name\n- textbox \"Name\"\n- combobox:\n  - option \"+ add a field\" [disabled] [selected]\n  - option \"image\"\n  - option \"note\"\n  - option \"classifiedAs\"\n- button \"Reset\"\n- button \"Submit\"",
+    "errors": []
+  },
+  "createOrganization": {
+    "url": "http://localhost:8888/",
+    "initial": "- img \"Logo\"\n- heading \"hREA explorer\" [level=1]\n- button \"+ Window\"\n- text: foo\n- 'heading \"Step 1: Select a view type\" [level=1]'\n- button \"Form\"\n- button \"Table\"\n- button \"Graph\"",
+    "created": "- img \"Logo\"\n- heading \"hREA explorer\" [level=1]\n- button \"+ Window\"\n- text: foo\n- heading \"Create Organization\" [level=1]\n- text: Name\n- textbox \"Name\": commonground-bread-v1 — UI organization probe\n- combobox:\n  - option \"+ add a field\" [disabled] [selected]\n  - option \"image\"\n  - option \"note\"\n  - option \"classifiedAs\"\n- paragraph: ✓ Created Organization.\n- button \"Reset\"\n- button \"Submit\"",
+    "text": "hREA explorer\n+ Window\nfoo\nfoo\nCreate Organization\nName\n+ add a field\nimage\nnote\nclassifiedAs\nReset\nSubmit\nStep 2: Select an entry type\nAgents\nOrganizations\nPeople\nAgentRelationships\nAgentRelationshipRoles\nAgreements\nCommitments\nIntents\nUnits\nEconomicEvents\nEconomicResources\nPlans\nProcesses\nProcessSpecifications\nProposals\nOffers\nRequests\nRecipeFlows\nRecipeProcesses\nRecipeExchanges\nResourceSpecifications\nClaims\nSpatialThings\nAgreementBundles",
+    "aria": "- img \"Logo\"\n- heading \"hREA explorer\" [level=1]\n- button \"+ Window\"\n- text: foo foo\n- heading \"Create Organization\" [level=1]\n- text: Name\n- textbox \"Name\": commonground-bread-v1 — UI organization probe\n- combobox:\n  - option \"+ add a field\" [disabled] [selected]\n  - option \"image\"\n  - option \"note\"\n  - option \"classifiedAs\"\n- button \"Reset\"\n- button \"Submit\"\n- 'heading \"Step 2: Select an entry type\" [level=1]'\n- button \"Agents\"\n- button \"Organizations\"\n- button \"People\"\n- button \"AgentRelationships\"\n- button \"AgentRelationshipRoles\"\n- button \"Agreements\"\n- button \"Commitments\"\n- button \"Intents\"\n- button \"Units\"\n- button \"EconomicEvents\"\n- button \"EconomicResources\"\n- button \"Plans\"\n- button \"Processes\"\n- button \"ProcessSpecifications\"\n- button \"Proposals\"\n- button \"Offers\"\n- button \"Requests\"\n- button \"RecipeFlows\"\n- button \"RecipeProcesses\"\n- button \"RecipeExchanges\"\n- button \"ResourceSpecifications\"\n- button \"Claims\"\n- button \"SpatialThings\"\n- button \"AgreementBundles\"",
+    "errors": [
+      "An error occurred! For more details, see the full error text at https://go.apollo.dev/c/err#%7B%22version%22%3A%223.14.0%22%2C%22message%22%3A13%2C%22args%22%3A%5B%22organization%22%2C%22%7B%5Cn%20%20%5C%22__typename%5C%22%3A%20%5C%22OrganizationResponse%5C%22%5Cn%7D%22%5D%7D"
+    ]
+  },
+  "organizationReadback": {
+    "url": "http://localhost:8888/",
+    "text": "hREA explorer\n+ Window\nfoo\n1 organizations\n↻ Refresh\nId\tRevisionId\tName\tNote\tImage\tClassifiedAs\n✄ uhCkkMN8…\tuhCkkMN8…\tcommonground-bread-v1 — UI organization probe\t—\t—\t—",
+    "aria": "- img \"Logo\"\n- heading \"hREA explorer\" [level=1]\n- button \"+ Window\"\n- text: foo\n- list:\n  - heading \"1 organizations\" [level=2]\n  - button \"↻ Refresh\"\n  - table:\n    - rowgroup:\n      - row \"Id RevisionId Name Note Image ClassifiedAs\":\n        - columnheader \"Id\"\n        - columnheader \"RevisionId\"\n        - columnheader \"Name\"\n        - columnheader \"Note\"\n        - columnheader \"Image\"\n        - columnheader \"ClassifiedAs\"\n    - rowgroup:\n      - row \"✄ uhCkkMN8… uhCkkMN8… commonground-bread-v1 — UI organization probe — — —\":\n        - cell \"✄ uhCkkMN8…\"\n        - cell \"uhCkkMN8…\"\n        - cell \"commonground-bread-v1 — UI organization probe\"\n        - cell \"—\"\n        - cell \"—\"\n        - cell \"—\"",
+    "errors": []
+  },
+  "upstreamStartErrors": [
+    "[2] error: `run-local-services' is not a recognized internal hc subcommand, nor is 'hc-run-local-services' an external command on your PATH.",
+    "[1] error: unrecognized subcommand 'webrtc'"
+  ],
+  "loopbackPorts": {
+    "bootstrap": 28134,
+    "admin": 22994,
+    "app": 29281,
+    "ui": 8888
+  },
+  "transport": "mem; one signer; external persistent UI sandbox",
+  "afterConductorAndViteRestart": {
+    "url": "http://localhost:8888/",
+    "text": "hREA explorer\n+ Window\nfoo\n1 organizations\n↻ Refresh\nId\tRevisionId\tName\tNote\tImage\tClassifiedAs\n✄ uhCkkMN8…\tuhCkkMN8…\tcommonground-bread-v1 — UI organization probe\t—\t—\t—",
+    "aria": "- img \"Logo\"\n- heading \"hREA explorer\" [level=1]\n- button \"+ Window\"\n- text: foo\n- list:\n  - heading \"1 organizations\" [level=2]\n  - button \"↻ Refresh\"\n  - table:\n    - rowgroup:\n      - row \"Id RevisionId Name Note Image ClassifiedAs\":\n        - columnheader \"Id\"\n        - columnheader \"RevisionId\"\n        - columnheader \"Name\"\n        - columnheader \"Note\"\n        - columnheader \"Image\"\n        - columnheader \"ClassifiedAs\"\n    - rowgroup:\n      - row \"✄ uhCkkMN8… uhCkkMN8… commonground-bread-v1 — UI organization probe — — —\":\n        - cell \"✄ uhCkkMN8…\"\n        - cell \"uhCkkMN8…\"\n        - cell \"commonground-bread-v1 — UI organization probe\"\n        - cell \"—\"\n        - cell \"—\"\n        - cell \"—\"",
+    "errors": []
+  },
+  "activeUnits": [
+    "hrea-ui-loopback",
+    "hrea-conductor-loopback",
+    "hrea-bootstrap-loopback"
+  ]
+}

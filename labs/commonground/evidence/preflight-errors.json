@@ -1,0 +1,6 @@
+{
+  "missingLair": "Failed to execute lair-keystore init: No such file or directory",
+  "wrongLairVersion": "Invalid lair server version, this client requires 0.7.1, but got 0.6.3",
+  "unitSchema": "UnitCreateParams requires omUnitIdentifier: String!; fixed in hrea-cycle.ts",
+  "firstAgent3Launch": "Disallowed plaintext relay URL; fixed only for local loopback transport; OOM counter was zero"
+}

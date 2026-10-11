@@ -1,0 +1,135 @@
+{
+  "url": "applet://uhc$e$kko$c$v$oso$n$b-y$u$5qj$iuf$f$s$e$qck$wj8i$_hm$9dji$3h$xo$b$w$i$hg$g$v$b$n/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz#!/transactions",
+  "transaction": {
+    "id": "uhCkkmesOWWuMaHlzdN7QhuJguke1h_RyJGDYJDboUiEm1kxGQUW5",
+    "tx_type": "Commitment",
+    "amount": {
+      "0": "-30"
+    },
+    "counterparty": [
+      "uhCAkuzoB5WAA_Mq1c329ipIhQ1rPBaNf4d7LXLkWeZf7KkpCxjB4"
+    ],
+    "history": [],
+    "timestamp": 1791738253788089,
+    "creator": "uhCAkv_4GxdT8mZKZjNa3ICnZcxCFFEYAaplYTIzT9_7CMvF8A2FC",
+    "details": {
+      "Commitment": {
+        "proposal_hash": null,
+        "payload": {
+          "SimpleNote": "commonground-bread-v1; 30 ZF test credit; no real funds; cooperative -> bakery"
+        },
+        "ledger": {
+          "balance": {
+            "0": "-30"
+          },
+          "carry_forward_units": {},
+          "fees_owed": "0",
+          "proposed_balance": {}
+        },
+        "global_definition": "uhCkk5cuq_Zg692cqOU6bkNdatssy_rtPZSWbzSzA0UhOBUdqqSl_",
+        "lane_definitions": []
+      }
+    }
+  },
+  "status": {
+    "id": "uhCkkmesOWWuMaHlzdN7QhuJguke1h_RyJGDYJDboUiEm1kxGQUW5",
+    "status": "Completed",
+    "action_message": "",
+    "related_transaction": [],
+    "validation_receipts": [
+      {
+        "op_hash": [
+          132,
+          36,
+          36,
+          112,
+          45,
+          237,
+          66,
+          109,
+          173,
+          49,
+          23,
+          179,
+          131,
+          102,
+          143,
+          8,
+          85,
+          82,
+          137,
+          115,
+          217,
+          244,
+          43,
+          73,
+          81,
+          161,
+          60,
+          208,
+          173,
+          134,
+          237,
+          186,
+          61,
+          118,
+          34,
+          150,
+          179,
+          59,
+          103
+        ],
+        "op_type": "RegisterAgentActivity",
+        "receipts_complete": false,
+        "receipts": [
+          {
+            "validation_status": "Valid",
+            "validators": [
+              [
+                132,
+                32,
+                36,
+                187,
+                58,
+                1,
+                229,
+                96,
+                0,
+                252,
+                202,
+                181,
+                115,
+                125,
+                189,
+                138,
+                146,
+                33,
+                67,
+                90,
+                207,
+                5,
+                163,
+                95,
+                225,
+                222,
+                203,
+                92,
+                185,
+                22,
+                121,
+                151,
+                251,
+                42,
+                74,
+                66,
+                198,
+                48,
+                120
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "profile": "agent1",
+    "role": "cooperative",
+    "groupDna": "uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "agentPubKey": "uhCAkv_4GxdT8mZKZjNa3ICnZcxCFFEYAaplYTIzT9_7CMvF8A2FC"
+  },
+  {
+    "profile": "agent2",
+    "role": "bakery",
+    "groupDna": "uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "agentPubKey": "uhCAkuzoB5WAA_Mq1c329ipIhQ1rPBaNf4d7LXLkWeZf7KkpCxjB4"
+  },
+  {
+    "profile": "agent3",
+    "role": "coordinator",
+    "groupDna": "uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "agentPubKey": "uhCAkyIwVYU1cpOx6hfdnvYZJHOMAItVvNSPgAXE9x_VAx7_ulsvq"
+  }
+]

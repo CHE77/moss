@@ -1,0 +1,164 @@
+[
+  {
+    "source": "vines-reply-sender.json",
+    "observedAt": "2026-10-11T17:15:58.915168+00:00",
+    "url": "applet://uhc$e$kgj$h$i$n$2a2o$c$yk$x$1jdvn$d$jvs$p$g$a$bh$if$d$d$hg$w$g$pi$o$if$e$f$keml$k$9/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "commonground-bread-v1 | No channels found | Create channel | Channels | Serenity | commonground-bread-v1 | LO | Messages | No messages found | Channels | Tools | My | LT | # Channels: commonground-bread-v1 | LO | # | Welcome to | # Channels: commonground-bread-v1 | ! | This is the start of a channel about topic | commonground-bread-v1 | Rules | | | Moderators | : | None | 10/11/2026 | LO | Lab Agent One | 10/11/2026, 18:36:52 | commonground-bread-v1: кооперативу нужны 10 буханок. Пекарня: 5 кг муки, 3 часа труда; цена для отдельного теста Unyt — 30 тестовых единиц. | LT | Lab Agent Two | 10/11/2026, 19:15:35 | commonground-bread-v1: пекарня видит заказ и назначенную задачу; 30 тестовых ZF приняты."
+  },
+  {
+    "source": "vines-reply-receiver.json",
+    "observedAt": "2026-10-11T17:16:00.603828+00:00",
+    "url": "applet://uhc$e$kgj$h$i$n$2a2o$c$yk$x$1jdvn$d$jvs$p$g$a$bh$if$d$d$hg$w$g$pi$o$if$e$f$keml$k$9/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "Channels | Serenity | Badge | 0 | commonground-bread-v1 | LT | commonground-bread-v1 | No channels found | Create channel | Messages | No messages found | Channels | Tools | My | LO | LT | # | Welcome to | # Channels: commonground-bread-v1 | ! | This is the start of a channel about topic | commonground-bread-v1 | Rules | | | Moderators | : | None | 10/11/2026 | LO | Lab Agent One | 10/11/2026, 18:36:52 | commonground-bread-v1: кооперативу нужны 10 буханок. Пекарня: 5 кг муки, 3 часа труда; цена для отдельного теста Unyt — 30 тестовых единиц. | LT | Lab Agent Two | 10/11/2026, 19:15:35 | commonground-bread-v1: пекарня видит заказ и назначенную задачу; 30 тестовых ZF приняты."
+  },
+  {
+    "source": "vines-while-offline.json",
+    "observedAt": "2026-10-11T17:17:09.119022+00:00",
+    "url": "applet://uhc$e$kgj$h$i$n$2a2o$c$yk$x$1jdvn$d$jvs$p$g$a$bh$if$d$d$hg$w$g$pi$o$if$e$f$keml$k$9/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "commonground-bread-v1 | No channels found | Create channel | Channels | Serenity | commonground-bread-v1 | LO | Messages | No messages found | Channels | Tools | My | LT | # Channels: commonground-bread-v1 | LO | # | Welcome to | # Channels: commonground-bread-v1 | ! | This is the start of a channel about topic | commonground-bread-v1 | Rules | | | Moderators | : | None | 10/11/2026 | LO | Lab Agent One | 10/11/2026, 18:36:52 | commonground-bread-v1: кооперативу нужны 10 буханок. Пекарня: 5 кг муки, 3 часа труда; цена для отдельного теста Unyt — 30 тестовых единиц. | LT | Lab Agent Two | 10/11/2026, 19:15:35 | commonground-bread-v1: пекарня видит заказ и назначенную задачу; 30 тестовых ZF приняты."
+  },
+  {
+    "source": "vines-offline-sender.json",
+    "observedAt": "2026-10-11T17:17:09.996151+00:00",
+    "url": "applet://uhc$e$kgj$h$i$n$2a2o$c$yk$x$1jdvn$d$jvs$p$g$a$bh$if$d$d$hg$w$g$pi$o$if$e$f$keml$k$9/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "Channels | Serenity | Badge | 0 | commonground-bread-v1 | LT | commonground-bread-v1 | No channels found | Create channel | Messages | No messages found | Channels | Tools | My | LO | LT | # | Welcome to | # Channels: commonground-bread-v1 | ! | This is the start of a channel about topic | commonground-bread-v1 | Rules | | | Moderators | : | None | 10/11/2026 | LO | Lab Agent One | 10/11/2026, 18:36:52 | commonground-bread-v1: кооперативу нужны 10 буханок. Пекарня: 5 кг муки, 3 часа труда; цена для отдельного теста Unyt — 30 тестовых единиц. | LT | Lab Agent Two | 10/11/2026, 19:15:35 | commonground-bread-v1: пекарня видит заказ и назначенную задачу; 30 тестовых ZF приняты. | LO | Lab Agent One | 10/11/2026, 19:16:56 | commonground-bread-v1: offline-recovery-2026-10-11 — сообщение создано при приостановленном conductor пекарни."
+  },
+  {
+    "source": "vines-after-resume.json",
+    "observedAt": "2026-10-11T17:17:40.232345+00:00",
+    "url": "applet://uhc$e$kgj$h$i$n$2a2o$c$yk$x$1jdvn$d$jvs$p$g$a$bh$if$d$d$hg$w$g$pi$o$if$e$f$keml$k$9/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "commonground-bread-v1 | No channels found | Create channel | Channels | Serenity | commonground-bread-v1 | LO | Messages | No messages found | Channels | Tools | My | LT | # Channels: commonground-bread-v1 | LO | # | Welcome to | # Channels: commonground-bread-v1 | ! | This is the start of a channel about topic | commonground-bread-v1 | Rules | | | Moderators | : | None | 10/11/2026 | LO | Lab Agent One | 10/11/2026, 18:36:52 | commonground-bread-v1: кооперативу нужны 10 буханок. Пекарня: 5 кг муки, 3 часа труда; цена для отдельного теста Unyt — 30 тестовых единиц. | LT | Lab Agent Two | 10/11/2026, 19:15:35 | commonground-bread-v1: пекарня видит заказ и назначенную задачу; 30 тестовых ZF приняты. | LO | Lab Agent One | 10/11/2026, 19:16:56 | commonground-bread-v1: offline-recovery-2026-10-11 — сообщение создано при приостановленном conductor пекарни."
+  },
+  {
+    "source": "vines-agent3-order-readback.json",
+    "observedAt": "2026-10-11T18:13:53.176570+00:00",
+    "url": "applet://uhc$e$kgj$h$i$n$2a2o$c$yk$x$1jdvn$d$jvs$p$g$a$bh$if$d$d$hg$w$g$pi$o$if$e$f$keml$k$9/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "commonground-bread-v1 | No channels found | Create channel | Channels | Serenity | commonground-bread-v1 | Messages | No messages found | Channels | Tools | My | LT | # Channels: commonground-bread-v1 | # | Welcome to | # Channels: commonground-bread-v1 | ! | This is the start of a channel about topic | commonground-bread-v1 | Rules | | | Moderators | : | None | 10/11/2026 | LO | Lab Agent One | 10/11/2026, 18:36:52 | commonground-bread-v1: кооперативу нужны 10 буханок. Пекарня: 5 кг муки, 3 часа труда; цена для отдельного теста Unyt — 30 тестовых единиц. | LT | Lab Agent Two | 10/11/2026, 19:15:35 | commonground-bread-v1: пекарня видит заказ и назначенную задачу; 30 тестовых ZF приняты. | LO | Lab Agent One | 10/11/2026, 19:16:56 | commonground-bread-v1: offline-recovery-2026-10-11 — сообщение создано при приостановленном conductor пекарни."
+  },
+  {
+    "source": "kando-agent2-cards.json",
+    "observedAt": "2026-10-11T17:07:54.286847+00:00",
+    "url": "applet://uhc$e$ks$xfph$x$wje$-ki2m$7g$2c$r$1c$s$1n$z$qecz09r$uuu$vsduft$qw$b$o$l$r$5/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "Boards | New Board | CommonGround evaluation board | Farm | commonground-bread-v1 | Archived Boards | Show | CommonGround Lab | commonground-bread-v1 | To Do | + | Add Card | commonground-bread-v1: выдать кооперативу 10 буханок | Срок: 11.10.2026 до 23:59. Ручные связи: Acorn outcome #214509; Converge commonground-bread-v1 — 10 буханок, срок и выдача; Vines channel commonground-bread-v1. Передача в hREA и тестовый расчёт Unyt 30 единиц — отдельные неподтверждённые операции. | Lab Agent One | commonground-bread-v1: испечь 10 буханок — 3 часа труда | Пекарня: 5 кг муки, 3 часа труда. Ручная связь: Acorn outcome #214509; Converge commonground-bread-v1 — 10 буханок, срок и выдача. Результаты экономического учёта отдельно в hREA. | Lab Agent Two | commonground-bread-v1: купить/выделить 5 кг муки | Ручные связи: Acorn outcome #214509; Converge deliberation commonground-bread-v1 — 10 буханок, срок и выдача; Vines channel commonground-bread-v1. Экономическая операция consume 5 кг выполняется и проверяется отдельно в hREA. | Add Column +"
+  },
+  {
+    "source": "kando-agent3-cards.json",
+    "observedAt": "2026-10-11T18:16:01.756533+00:00",
+    "url": "applet://uhc$e$ks$xfph$x$wje$-ki2m$7g$2c$r$1c$s$1n$z$qecz09r$uuu$vsduft$qw$b$o$l$r$5/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "Boards | New Board | CommonGround evaluation board | Farm | commonground-bread-v1 | Archived Boards | Show | CommonGround Lab | commonground-bread-v1 | To Do | + | Add Card | commonground-bread-v1: выдать кооперативу 10 буханок | Срок: 11.10.2026 до 23:59. Ручные связи: Acorn outcome #214509; Converge commonground-bread-v1 — 10 буханок, срок и выдача; Vines channel commonground-bread-v1. Передача в hREA и тестовый расчёт Unyt 30 единиц — отдельные неподтверждённые операции. | Lab Agent One | commonground-bread-v1: испечь 10 буханок — 3 часа труда | Пекарня: 5 кг муки, 3 часа труда. Ручная связь: Acorn outcome #214509; Converge commonground-bread-v1 — 10 буханок, срок и выдача. Результаты экономического учёта отдельно в hREA. | Lab Agent Two | commonground-bread-v1: купить/выделить 5 кг муки | Ручные связи: Acorn outcome #214509; Converge deliberation commonground-bread-v1 — 10 буханок, срок и выдача; Vines channel commonground-bread-v1. Экономическая операция consume 5 кг выполняется и проверяется отдельно в hREA. | Doing | + | Add Card | Add Column +"
+  },
+  {
+    "source": "kando-agent1-move-confirmed.json",
+    "observedAt": "2026-10-11T20:39:42.254015+00:00",
+    "url": "applet://uhc$e$ks$xfph$x$wje$-ki2m$7g$2c$r$1c$s$1n$z$qecz09r$uuu$vsduft$qw$b$o$l$r$5/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "Boards | New Board | CommonGround evaluation board | Farm | commonground-bread-v1 | Archived Boards | Show | CommonGround Lab | commonground-bread-v1 | To Do | + | Add Card | commonground-bread-v1: выдать кооперативу 10 буханок | Срок: 11.10.2026 до 23:59. Ручные связи: Acorn outcome #214509; Converge commonground-bread-v1 — 10 буханок, срок и выдача; Vines channel commonground-bread-v1. Передача в hREA и тестовый расчёт Unyt 30 единиц — отдельные неподтверждённые операции. | Lab Agent One | commonground-bread-v1: купить/выделить 5 кг муки | Ручные связи: Acorn outcome #214509; Converge deliberation commonground-bread-v1 — 10 буханок, срок и выдача; Vines channel commonground-bread-v1. Экономическая операция consume 5 кг выполняется и проверяется отдельно в hREA. | Doing | + | Add Card | commonground-bread-v1: испечь 10 буханок — 3 часа труда | Пекарня: 5 кг муки, 3 часа труда. Ручная связь: Acorn outcome #214509; Converge commonground-bread-v1 — 10 буханок, срок и выдача. Результаты экономического учёта отдельно в hREA. | Lab Agent Two | Add Column +"
+  },
+  {
+    "source": "converge-agent1-three-votes.json",
+    "observedAt": "2026-10-11T20:41:15.237041+00:00",
+    "url": "applet://uhc$e$kwz$c10s$d$v$w$td$jo$36x$xvy$sf$05a$z88f$h$-m$v$xf$vl$c$0n$q$s$nuzvfd4/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "Website | All deliberations | Joined | Lab Agent One | commonground-bread-v1 — 10 буханок, срок и выдача | Тест: испечь и передать кооперативу 10 буханок. Расход: 5 кг муки и 3 часа труда. Выдать 11.10.2026 до 23:59. Отдельный тест расчёта: 30 тестовых единиц Unyt, без реальных денег. Ручные связи: Acorn outcome #214509; Vines channel commonground-bread-v1; Who’s In? event commonground-bread-v1 — выпечка и выдача 10 буханок. | Leave | complete | Criteria (1) | Proposals (1) | Next steps (0) | Add a proposal | commonground-bread-v1: испечь и выдать 10 буханок | Evaluations: | 1 | Score: | _ | % | Accept: | ✔ | 3 | ✗ | 0 | Пекарня выделяет 5 кг муки и 3 часа труда; выдаёт все 10 буханок кооперативу до 23:59. Задачи в KanDo будут связаны вручную по маркеру commonground-bread-v1. Отдельный тест расчёта Unyt: 30 тестовых единиц. | ⇦ | esc | commonground-bread-v1: испечь и выдать 10 буханок | Evaluations: | 1 | Score: | _ | % | Accept: | ✔ | 3 | ✗ | 0 | Пекарня выделяет 5 кг муки и 3 часа труда; выдаёт все 10 буханок кооперативу до 23:59. Задачи в KanDo будут связаны вручную по маркеру commonground-bread-v1. Отдельный тест расчёта Unyt: 30 тестовых единиц. | Evaluation | You can rate this proposal with a simple yes/no evaluation, as well as with a more detailed evaluation of the criteria. | Could you accept this proposal? | ✔ | Yes | No | ⇨ | Give feedback regarding this software"
+  },
+  {
+    "source": "converge-agent3-vote.json",
+    "observedAt": "2026-10-11T20:40:55.762142+00:00",
+    "url": "applet://uhc$e$kwz$c10s$d$v$w$td$jo$36x$xvy$sf$05a$z88f$h$-m$v$xf$vl$c$0n$q$s$nuzvfd4/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "Website | All deliberations | Joined | Lab Agent Three | commonground-bread-v1 — 10 буханок, срок и выдача | Тест: испечь и передать кооперативу 10 буханок. Расход: 5 кг муки и 3 часа труда. Выдать 11.10.2026 до 23:59. Отдельный тест расчёта: 30 тестовых единиц Unyt, без реальных денег. Ручные связи: Acorn outcome #214509; Vines channel commonground-bread-v1; Who’s In? event commonground-bread-v1 — выпечка и выдача 10 буханок. | Leave | complete | Criteria (1) | Proposals (1) | Next steps (0) | + | commonground-bread-v1: испечь и выдать 10 буханок | Evaluations: | 1 | Score: | _ | % | Accept: | ✔ | 3 | ✗ | 0 | Пекарня выделяет 5 кг муки и 3 часа труда; выдаёт все 10 буханок кооперативу до 23:59. Задачи в KanDo будут связаны вручную по маркеру commonground-bread-v1. Отдельный тест расчёта Unyt: 30 тестовых единиц. | ⇦ | esc | commonground-bread-v1: испечь и выдать 10 буханок | Evaluations: | 1 | Score: | _ | % | Accept: | ✔ | 3 | ✗ | 0 | Пекарня выделяет 5 кг муки и 3 часа труда; выдаёт все 10 буханок кооперативу до 23:59. Задачи в KanDo будут связаны вручную по маркеру commonground-bread-v1. Отдельный тест расчёта Unyt: 30 тестовых единиц. | Evaluation | You can rate this proposal with a simple yes/no evaluation, as well as with a more detailed evaluation of the criteria. | Could you accept this proposal? | ✔ | Yes | No | ⇨ | Give feedback regarding this software"
+  },
+  {
+    "source": "whosin-agent2-added.json",
+    "observedAt": "2026-10-11T17:31:35.605736+00:00",
+    "url": "applet://uhc$e$kvbr$oqqsn$o$as-wd$cm$qc$q$r$8nz$r$md$a$fmblko$rd_j7zk6u$q7ns$ni/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "1 | Lab Agent Two | × | commonground-bread-v1 — выпечка и выдача 10 буханок | Event | Happening today | Event date: | Sunday, October 11, | 12:00 AM | to | 11:59 PM | Roles | Пекарь / выдача | 200 | % | 2 | committed | ✔ | Remove me | month | week | day | list | events | my availability | find a time | October 2026 | today | Sun | Mon | Tue | Wed | Thu | Fri | Sat | 27 | 28 | 29 | 30 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12:00 AM | commonground-bread-v1 — выпечка и выдача 10 буханок | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | Submit feedback"
+  },
+  {
+    "source": "whosin-agent2-withdrawn.json",
+    "observedAt": "2026-10-11T17:36:09.668328+00:00",
+    "url": "applet://uhc$e$kvbr$oqqsn$o$as-wd$cm$qc$q$r$8nz$r$md$a$fmblko$rd_j7zk6u$q7ns$ni/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "1 | Lab Agent Two | × | commonground-bread-v1 — выпечка и выдача 10 буханок | Event | Happening today | Event date: | Sunday, October 11, | 12:00 AM | to | 11:59 PM | Roles | Пекарь / выдача | 100 | % | 1 | committed | ✔ | Add me | month | week | day | list | events | my availability | find a time | October 2026 | today | Sun | Mon | Tue | Wed | Thu | Fri | Sat | 27 | 28 | 29 | 30 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12:00 AM | commonground-bread-v1 — выпечка и выдача 10 буханок | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | Submit feedback"
+  },
+  {
+    "source": "whosin-two-visible-agent1.json",
+    "observedAt": "2026-10-11T17:35:48.168778+00:00",
+    "url": "applet://uhc$e$kvbr$oqqsn$o$as-wd$cm$qc$q$r$8nz$r$md$a$fmblko$rd_j7zk6u$q7ns$ni/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "2 | Lab Agent One | commonground-bread-v1 — выпечка и выдача 10 буханок | Event | Happening today | Event date: | Sunday, October 11, | 12:00 AM | to | 11:59 PM | Roles | Пекарь / выдача | 100 | % | 1 | committed | ✔ | Remove me | Since no one else has signed up for a role yet, you can still hide this | event | from the front page. | Hide | Submit feedback"
+  },
+  {
+    "source": "acorn-outcome.json",
+    "observedAt": "2026-10-11T16:38:44.461255+00:00",
+    "url": "applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz#/project/132,45,36,67,185,164,171,238,216,171,168,112,84,54,139,147,234,63,4,126,193,228,10,69,74,113,194,205,31,148,33,27,247,37,205,68,108,141,74[:cell_id_divider:]132,32,36,191,254,6,197,212,252,153,146,153,140,214,183,32,41,217,115,16,133,20,70,0,106,153,88,76,140,211,247,254,194,50,241,124,3,97,66/map",
+    "text": "Version 12.0.0 | Map View | Table View | Priority View | commonground-bread-v1 — 10 буханок | Entry Points | Attachments | Project Settings | Export | Add Project to Pocket | Invite Members | Help | L | undefined | Outcome Connector | Archive | Report Issue | Map Viewing Options | 50 | % | New project created"
+  },
+  {
+    "source": "acorn-crash-stack.json",
+    "observedAt": "2026-10-11T17:30:04.276736+00:00",
+    "url": "applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz#/project/132,45,36,67,185,164,171,238,216,171,168,112,84,54,139,147,234,63,4,126,193,228,10,69,74,113,194,205,31,148,33,27,247,37,205,68,108,141,74[:cell_id_divider:]132,32,36,191,254,6,197,212,252,153,146,153,140,214,183,32,41,217,115,16,133,20,70,0,106,153,88,76,140,211,247,254,194,50,241,124,3,97,66/table",
+    "text": "Sorry... | Acorn has crashed | Please help us improve the app's performance by | reporting the issue | . Try pressing 'Reload' and if that doesn't work, try fully restarting the application. | Report Issue | Reload | Hide stack trace | Cannot read properties of undefined (reading 'profiles')\n\nTypeError: Cannot read properties of undefined (reading 'profiles')\n    at Function.TableView_connector_mapStateToProps [as mapToProps] (applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/app.js:172629:69)\n    at mapToPropsProxy (applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/app.js:109369:92)\n    at Function.detectFactoryAndVerify (applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/app.js:109376:19)\n    at mapToPropsProxy (applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/app.js:109369:46)\n    at handleFirstCall (applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/app.js:109476:18)\n    at pureFinalPropsSelector (applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/app.js:109512:81)\n    at applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/app.js:109244:16\n    at Object.useMemo (applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/app.js:55572:11)\n    at __webpack_modules__.49820.exports.useMemo (applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/app.js:66849:14)\n    at ConnectFunction (applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/app.js:109230:30)"
+  },
+  {
+    "source": "acorn-reopened-project.json",
+    "observedAt": "2026-10-11T17:40:29.569650+00:00",
+    "url": "applet://uhc$e$kpx$z$f$z$pm$nm$458k9x0j$-0j$ll$hch0r$n$u7ohel7ij$2dp$p3ru46j$q/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz#/project/132,45,36,67,185,164,171,238,216,171,168,112,84,54,139,147,234,63,4,126,193,228,10,69,74,113,194,205,31,148,33,27,247,37,205,68,108,141,74[:cell_id_divider:]132,32,36,191,254,6,197,212,252,153,146,153,140,214,183,32,41,217,115,16,133,20,70,0,106,153,88,76,140,211,247,254,194,50,241,124,3,97,66/map",
+    "text": "commonground-bread-v1 — 10 буханок | L | Help | L | Report Issue | 50 | %"
+  },
+  {
+    "source": "carbon-farm-launch.json",
+    "observedAt": "2026-10-11T20:39:19.803216+00:00",
+    "url": "applet://uhc$e$kv$ww$dvlng_uk$a$p4e$u$gb$jpnaen$t$c$x$zn3o$3n$_iv$s$p$kv$s$8a$3ag$r5/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "Open main menu | Open user menu | + | − | Leaflet | | | © OpenStreetMap contributors | Search"
+  },
+  {
+    "source": "unyt-after-pay-sender.json",
+    "observedAt": "2026-10-11T17:04:18.750075+00:00",
+    "url": "applet://uhc$e$kko$c$v$oso$n$b-y$u$5qj$iuf$f$s$e$qck$wj8i$_hm$9dji$3h$xo$b$w$i$hg$g$v$b$n/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz#!/transactions",
+    "text": "Dashboard | Networks | -30 | ZF | Monetary | Balances | Symbol | Name | Network | Amount | Fuel | ( | ZF | ) | Current | : | -30 ZF | Credit Limit | : | 10,000 ZF | Proposed | : | 0 ZF | Available | : | 9,970 ZF | US Dollar | ( | USD | ) | Current | : | 0 USD | Credit Limit | : | 0 USD | Proposed | : | 0 USD | Available | : | 0 USD | Swap USD to ZF | Bridges | Transactions | Action List | Interaction | | | | | Parties | Amounts | Note | Time | Actions | No interactions require your attention. | Watch List | Interaction | | | | | Parties | Amounts | Status | Time | Actions | No items in watch list. | Recent History | See Full History | Interaction | | | | | Parties | Amounts | Balance | Status | Time | Payment | CommonGround Lab Bakery | - | 30 | ZF | -30 | ZF | Completed | 3s ago | Execute Agreement | Me | — | — | Completed | 3s ago | | Powered by | Unyt | Connected"
+  },
+  {
+    "source": "unyt-accepted-detail.json",
+    "observedAt": "2026-10-11T17:06:01.431340+00:00",
+    "url": "applet://uhc$e$kko$c$v$oso$n$b-y$u$5qj$iuf$f$s$e$qck$wj8i$_hm$9dji$3h$xo$b$w$i$hg$g$v$b$n/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz#!/transactions",
+    "text": "Dashboard | Networks | 30 | ZF | Monetary | Balances | Symbol | Name | Network | Amount | Fuel | ( | ZF | ) | Current | : | 30 ZF | Credit Limit | : | 10,000 ZF | Proposed | : | 0 ZF | Available | : | 10,030 ZF | US Dollar | ( | USD | ) | Current | : | 0 USD | Credit Limit | : | 0 USD | Proposed | : | 0 USD | Available | : | 0 USD | Swap USD to ZF | Bridges | Transactions | Action List | Interaction | | | | | Parties | Amounts | Note | Time | Actions | No interactions require your attention. | Watch List | Interaction | | | | | Parties | Amounts | Status | Time | Actions | No items in watch list. | Recent History | See Full History | Interaction | | | | | Parties | Amounts | Status | Time | Payment | ...8A2FC | + | 30 | ZF | Bal: | 30 | ZF | 54s ago | 1s ago | Status | DHT validation receipts | Interaction Details | Start | : | Oct 11, 2026, 7:04 PM | End | : | Oct 11, 2026, 7:05 PM | Transaction Flow | ...F8A2FC | ✓ | Send | Me | ✓ | Accept | Receives (Credit) | Me | 30 | ZF | Total | : | 1 | Unit | Type | : | Payment | Transaction ID | : | ...sKun5X | Status | : | Completed | Counterparty | : | ...F8A2FC | Transaction Note | : | \" | commonground-bread-v1; 30 ZF test credit; no real funds; cooperative -> bakery | \" | History | | Powered by | Unyt | Connected"
+  },
+  {
+    "source": "unyt-limit-result.json",
+    "observedAt": "2026-10-11T17:06:44.422099+00:00",
+    "url": "applet://uhc$e$kko$c$v$oso$n$b-y$u$5qj$iuf$f$s$e$qck$wj8i$_hm$9dji$3h$xo$b$w$i$hg$g$v$b$n/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz#!/transactions",
+    "text": "Dashboard | Networks | -30 | ZF | Monetary | Balances | Symbol | Name | Network | Amount | Fuel | ( | ZF | ) | Current | : | -30 ZF | Credit Limit | : | 10,000 ZF | Proposed | : | 0 ZF | Available | : | 9,970 ZF | US Dollar | ( | USD | ) | Current | : | 0 USD | Credit Limit | : | 0 USD | Proposed | : | 0 USD | Available | : | 0 USD | Swap USD to ZF | Bridges | Transactions | Action List | Interaction | | | | | Parties | Amounts | Note | Time | Actions | No interactions require your attention. | Watch List | Interaction | | | | | Parties | Amounts | Status | Time | Actions | No items in watch list. | Recent History | See Full History | Interaction | | | | | Parties | Amounts | Balance | Status | Time | Payment | CommonGround Lab Bakery | - | 30 | ZF | -30 | ZF | Completed | 2m ago | Execute Agreement | Me | — | — | Completed | 2m ago | Pay | Send units of currency to contacts in your current network. | Recipient | Add Contact | Only contacts in your current network will appear here. | To pay a contact in a bridged network, click | here | . | Mode of payment | Debit | Add another debit | Amount | Unit | ZF | Notes | Add to watch list? | Pay | | Powered by | Unyt | Connected | × | Spend exceeds credit limit | You don't have enough funds in the selected unit to complete this transaction. Please adjust the amount or units referenced to proceed."
+  },
+  {
+    "source": "unyt-agent2-after-restart.json",
+    "observedAt": "2026-10-11T20:48:07.286571+00:00",
+    "url": "applet://uhc$e$kko$c$v$oso$n$b-y$u$5qj$iuf$f$s$e$qck$wj8i$_hm$9dji$3h$xo$b$w$i$hg$g$v$b$n/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz#!/transactions",
+    "text": "Dashboard | Networks | 30 | ZF | Monetary | Balances | Symbol | Name | Network | Amount | Fuel | ( | ZF | ) | Current | : | 30 ZF | Credit Limit | : | 10,000 ZF | Proposed | : | 0 ZF | Available | : | 10,030 ZF | US Dollar | ( | USD | ) | Current | : | 0 USD | Credit Limit | : | 0 USD | Proposed | : | 0 USD | Available | : | 0 USD | Action List | Interaction | | | | | Parties | Amounts | Time | Actions | No interactions require your attention. | Watch List | Interaction | | | | | Parties | Amounts | Status | Actions | No items in watch list. | Recent History | Interaction | | | | | Parties | Amounts | Status | Time | Payment | ...C | + | 30 | ZF | Bal: | 30 | ZF | 4h ago | 4h ago | | Powered by | Unyt | Connected"
+  },
+  {
+    "source": "whosin-second-join.json",
+    "observedAt": "2026-10-11T21:01:18.415943+00:00",
+    "url": "applet://uhc$e$kvbr$oqqsn$o$as-wd$cm$qc$q$r$8nz$r$md$a$fmblko$rd_j7zk6u$q7ns$ni/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "1 | Lab Agent Two | × | commonground-bread-v1 — выпечка и выдача 10 буханок | Event | Happening today | Event date: | Sunday, October 11, | 12:00 AM | to | 11:59 PM | Roles | Пекарь / выдача | 200 | % | 2 | committed | ✔ | Remove me | month | week | day | list | events | my availability | find a time | October 2026 | today | Sun | Mon | Tue | Wed | Thu | Fri | Sat | 27 | 28 | 29 | 30 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12:00 AM | commonground-bread-v1 — выпечка и выдача 10 буханок | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | Submit feedback"
+  },
+  {
+    "source": "whosin-second-join-after-30s.json",
+    "observedAt": "2026-10-11T21:02:05.717968+00:00",
+    "url": "applet://uhc$e$kvbr$oqqsn$o$as-wd$cm$qc$q$r$8nz$r$md$a$fmblko$rd_j7zk6u$q7ns$ni/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "2 | Lab Agent One | commonground-bread-v1 — выпечка и выдача 10 буханок | Event | Happening today | Event date: | Sunday, October 11, | 12:00 AM | to | 11:59 PM | Roles | Пекарь / выдача | 100 | % | 1 | committed | ✔ | Remove me | Since no one else has signed up for a role yet, you can still hide this | event | from the front page. | Hide | Submit feedback"
+  },
+  {
+    "source": "whosin-two-after-refresh-agent1.json",
+    "observedAt": "2026-10-11T21:02:18.591026+00:00",
+    "url": "applet://uhc$e$kvbr$oqqsn$o$as-wd$cm$qc$q$r$8nz$r$md$a$fmblko$rd_j7zk6u$q7ns$ni/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "2 | Lab Agent One | commonground-bread-v1 — выпечка и выдача 10 буханок | Event | Happening today | Event date: | Sunday, October 11, | 12:00 AM | to | 11:59 PM | Roles | Пекарь / выдача | 200 | % | ( ? ) | 2 | committed | ✔ | Remove me | Submit feedback"
+  },
+  {
+    "source": "whosin-second-withdraw.json",
+    "observedAt": "2026-10-11T21:02:20.952603+00:00",
+    "url": "applet://uhc$e$kvbr$oqqsn$o$as-wd$cm$qc$q$r$8nz$r$md$a$fmblko$rd_j7zk6u$q7ns$ni/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "1 | Lab Agent Two | × | commonground-bread-v1 — выпечка и выдача 10 буханок | Event | Happening today | Event date: | Sunday, October 11, | 12:00 AM | to | 11:59 PM | Roles | Пекарь / выдача | 100 | % | 1 | committed | ✔ | Add me | month | week | day | list | events | my availability | find a time | October 2026 | today | Sun | Mon | Tue | Wed | Thu | Fri | Sat | 27 | 28 | 29 | 30 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12:00 AM | commonground-bread-v1 — выпечка и выдача 10 буханок | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | Submit feedback"
+  },
+  {
+    "source": "whosin-withdraw-after-refresh-agent1.json",
+    "observedAt": "2026-10-11T21:04:17.425845+00:00",
+    "url": "applet://uhc$e$kvbr$oqqsn$o$as-wd$cm$qc$q$r$8nz$r$md$a$fmblko$rd_j7zk6u$q7ns$ni/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz",
+    "text": "2 | Lab Agent One | commonground-bread-v1 — выпечка и выдача 10 буханок | Event | Happening today | Event date: | Sunday, October 11, | 12:00 AM | to | 11:59 PM | Roles | Пекарь / выдача | 100 | % | 1 | committed | ✔ | Remove me | Submit feedback"
+  }
+]

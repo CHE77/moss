@@ -1,0 +1,45 @@
+holochain 0.7.0
+Initialising log output formatting with option Log
+holochain_cli 0.7.0
+yarn workspace v1.22.22
+yarn run v1.22.22
+$ rm -rf node_modules/@valueflows/vf-graphql-holochain
+Done in 0.05s.
+Done in 0.36s.
+yarn workspace v1.22.22
+yarn run v1.22.22
+$ $WORKSPACE_PARENT/hrea-commonground-lab/node_modules/.bin/tsx src/commonground-cycle.ts
+CommonGround bread cycle: real hREA API, one Holochain signer, three economic actors.
+Peer synchronisation, Moss integration and Unyt are separate manual checks.
+{"stage":"demand linked","bakery":"uhCkkTdoTlsvRU96GYkBoeEx9E9_ps5WFlLhfT64nx0WGaPXhIlVj","cooperative":"uhCkknXsdhOky4t0uZj9Cv67kgAvKWwyG1x2OFIVaExx6RspMOXd2","baker":"uhCkkivyk3j1kTn6s3uOCuoulP2jmtc33ljr2ZZZK5_Fs-nlzxYem","kg":"uhCkkFDhL01uY596izHjaU92vjOW1ze_d2zt7s3jaN3QAuT6YUpZc","piece":"uhCkkMhsC1emoQLCR1ZtmmhRGt0oCoCVVe9DUi1VTd9a_Vnua6W5W","hour":"uhCkk8e7oxxsPIbnQY9MW6iNLDeNfKCLam-0bnH0sXbONUyzU0H3n","intent":"uhCkk872ZnibqzV7fOtH8FWKfR5TTxBEq18aFwISEPVdACCOSOJ7H","plan":"uhCkkSGC7NCw08IXG6cI6u0ad_WVhGfFUVIUVW8zlUJCrvnO70KHp","process":"uhCkkqdjhyruTJv2daSlOE9mSc35FqiSjKdg2u2IfqCoOO3Bn5EZ-","commitment":"uhCkk03Fb2-Sb3XikN6eNPgEgwSh-9Ss5X4V7mTVrOK2DqhIL9OON"}
+{"stage":"opening inventory","resource":"uhCkkS_A2GmXmU4kjI_urGm5UW8zcO6Zjk7TzKbtiFmyN3z248r_3","expected":25,"accounting":25,"onhand":25}
+{"stage":"consume flour","resource":"uhCkkS_A2GmXmU4kjI_urGm5UW8zcO6Zjk7TzKbtiFmyN3z248r_3","expected":20,"accounting":20,"onhand":20}
+{"stage":"work","event":"uhCkkQlYEjhhQH2BR2sCqcgES-T-_d6vOh8A3b17S9ZH6veW-Xsv5","effort":{"hasNumericalValue":3,"hasUnit":{"id":"uhCkk8e7oxxsPIbnQY9MW6iNLDeNfKCLam-0bnH0sXbONUyzU0H3n","__typename":"Unit"},"__typename":"Measure"}}
+{"stage":"produce bread","resource":"uhCkkMdK5s0_f_GWxJpQEM8-EBa48sVspVwhepHzvgbJCxVAjN-bT","expected":10,"accounting":10,"onhand":10}
+{"stage":"process links","process":"uhCkkqdjhyruTJv2daSlOE9mSc35FqiSjKdg2u2IfqCoOO3Bn5EZ-","observedInputs":[{"id":"uhCkku_PMDBDtxL7xDRl_qhUW-PA8Sg_v8QipoIfibN2KbthbAskQ","__typename":"EconomicEvent"},{"id":"uhCkkQlYEjhhQH2BR2sCqcgES-T-_d6vOh8A3b17S9ZH6veW-Xsv5","__typename":"EconomicEvent"}],"observedOutputs":[{"id":"uhCkkdJaVBkv87tXhA4dqP0ysOaM8TigQsX8TLNf7AxpwfQl7ZfHX","__typename":"EconomicEvent"}],"__typename":"Process"}
+{"stage":"fulfillment links","commitment":"uhCkk03Fb2-Sb3XikN6eNPgEgwSh-9Ss5X4V7mTVrOK2DqhIL9OON","event":"uhCkkeJJzZKTpEkQUFxqO9bVhN2PTlQVOevYPeXgeQvLfcxB3Yo55","fulfilledBy":[{"id":"uhCkkeJJzZKTpEkQUFxqO9bVhN2PTlQVOevYPeXgeQvLfcxB3Yo55","__typename":"EconomicEvent"}],"__typename":"Commitment"}
+{"stage":"two-sided transfer accounting","resource":"uhCkkMdK5s0_f_GWxJpQEM8-EBa48sVspVwhepHzvgbJCxVAjN-bT","expected":0,"accounting":10,"onhand":10}
+{"stage":"two-sided transfer accounting","resource":"uhCkkHRauNyaGKWA7NDN9zul7NX7ULkKxPw1DJY_gbKSE3T8E7ujb","expected":10,"accounting":0,"onhand":0}
+CYCLE FAILED at two-sided transfer accounting: AssertionError [ERR_ASSERTION]: Accounting quantity: expected 0, received 10
+
+10 !== 0
+; AssertionError [ERR_ASSERTION]: Accounting quantity: expected 10, received 0
+
+0 !== 10
+
+
+2 !== 0
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+error Command failed.
+Exit code: 1
+Command: /home/al/.local/opt/node-v24.21.0-linux-x64/bin/node
+Arguments: $WORKSPACE_PARENT/Moss-lab/tooling/yarn/lib/cli.js run tsx src/commonground-cycle.ts
+Directory: $WORKSPACE_PARENT/hrea-commonground-lab/clients/acceptance
+Output:
+
+info Visit https://yarnpkg.com/en/docs/cli/workspace for documentation about this command.
+bash exited with 1
+
+EXIT_CODE=1

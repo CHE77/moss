@@ -1,0 +1,7 @@
+yarn run v1.22.22
+$ yarn typecheck:node && yarn typecheck:web
+$ tsc --noEmit -p tsconfig.node.json --composite false
+$ tsc --noEmit -p tsconfig.web.json --composite false
+Done in 9.15s.
+
+exit_code=0
