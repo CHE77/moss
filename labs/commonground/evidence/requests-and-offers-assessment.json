@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Europe/Amsterdam",
+  "repository": "happenings-community/requests-and-offers",
+  "devCommit": "5ad458dfc25a83fc90176260b644048e4ce8a775",
+  "release": "v0.6.0-alpha.1",
+  "releaseCommit": "967e6255ca1a2b7dc0436d1153237bf1d5d15ba5",
+  "webhappSha256": "facd75248cc70175857061d3091cb47e1d66509fbcc8cef00c3ebe60875b848c",
+  "webhappBytes": 13835045,
+  "assetDigestVerified": true,
+  "unpackWithHc061": "PASS",
+  "installedInMoss": "NOT RUN",
+  "devBuild": "NOT RUN",
+  "functionalTests": "NOT RUN",
+  "forkCreated": false,
+  "license": "CAL-1.0",
+  "assets": [
+    {
+      "path": "requests_and_offers.happ",
+      "bytes": 11302356,
+      "sha256": "0e7377e2bfaceac889d7c45a3c1b849df8e5b4d94b6515c940f89a52c58cf9d2"
+    },
+    {
+      "path": "dist.zip",
+      "bytes": 2553678,
+      "sha256": "31acc77b1750871aedb966cbb1fe0e0092ab37979f5401f3ffa522137c4105ec"
+    },
+    {
+      "path": "happ/hrea.dna",
+      "bytes": 1684323,
+      "sha256": "71e453323359c8e8a7ea991540a2253383ef379bea4e8ecf4109a578e6b3dda4"
+    },
+    {
+      "path": "happ/requests_and_offers.dna",
+      "bytes": 9634988,
+      "sha256": "f4b8de27418c1e9f7d867856975e3d93fc2c3a44618fc6705b0d276449f639f1"
+    }
+  ],
+  "mirrorPR": {
+    "number": 255,
+    "mergedAt": "2026-09-29T02:41:05Z",
+    "mergeCommit": "30a7b7b6ca720e899a8a6fffc3e26ed1b4efa8c4"
+  },
+  "limitations": [
+    "DeepWiki direct fetch HTTP 429",
+    "Release tag does not contain dev exchange mirror functions",
+    "UI-only mirror; upstream #278 records RAM mappings and duplication risk",
+    "weave catalog points to 0.3.0-alpha.1 in another namespace",
+    "Dev launch script port 8888 differs from dev config 8880; 8888 used by our hREA UI"
+  ]
+}

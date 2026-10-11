@@ -8,6 +8,8 @@
 
 Повторный анализ пригодности компонентов и проект связанного пользовательского процесса: [PROCESS_AND_ARCHITECTURE.md](PROCESS_AND_ARCHITECTURE.md). Предлагаемые там автоматизация, ресурсная доска и условия расчёта не входят в результаты выполненных тестов.
 
+Дополнение от **12.10.2026**: выполнен [анализ Requests and Offers](REQUESTS_AND_OFFERS_ASSESSMENT.md). Release webhApp v0.6.0-alpha.1 скачан, SHA256 совпал с digest GitHub, bundle распакован hc 0.6.1. Установка в Moss, сборка dev и функциональный цикл NOT RUN; количество установленных tools остаётся 17. [Метаданные проверки](evidence/requests-and-offers-assessment.json).
+
 ## Окружение и версии
 
 | Компонент | Фактически проверено |
