@@ -1,0 +1,1439 @@
+{
+  "schemaVersion": 1,
+  "marker": "commonground-cfn-2026-10-12",
+  "mode": "read-only",
+  "bundleSha256": "1647ac52aafa046c9ee11b0c4db2552254a0f4f0f516c4f00720df5e90678c0c",
+  "peers": [
+    {
+      "port": 9222,
+      "observedAt": "2026-10-12T10:39:10.899Z",
+      "agent": "uhCAkv_4GxdT8mZKZjNa3ICnZcxCFFEYAaplYTIzT9_7CMvF8A2FC",
+      "dnas": {
+        "migration": [
+          "uhC0kK-mNc4FNAoRyn6qrL-tO7pr6GJul3GvXKvnHl4ghVc804TEk"
+        ],
+        "hrea": [
+          "uhC0k5ZfeLQrwtwO7TroO9QovlPQ5w3yW5cXpijlNIa1epXl2tI4l"
+        ],
+        "hrea_facets_0": [
+          "uhC0kIPOkgqf036jAstrhTvbFJfSf4UTQ7zBoqFG8zvg-lh06rYjQ"
+        ]
+      },
+      "actors": [
+        {
+          "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+          "name": "CG CFN Workshop 2026-10-12",
+          "__typename": "Organization",
+          "author": "uhCAkuzoB5WAA_Mq1c329ipIhQ1rPBaNf4d7LXLkWeZf7KkpCxjB4"
+        },
+        {
+          "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "name": "CG CFN Farm 2026-10-12",
+          "__typename": "Organization",
+          "author": "uhCAkv_4GxdT8mZKZjNa3ICnZcxCFFEYAaplYTIzT9_7CMvF8A2FC"
+        }
+      ],
+      "resources": [
+        {
+          "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "name": "CG CFN Raw lot 2026-10-12",
+          "note": "commonground-cfn-2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-raw",
+          "primaryAccountable": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "name": "CG CFN Farm 2026-10-12",
+            "__typename": "Organization"
+          },
+          "conformsTo": {
+            "id": "uhCkkmL7Ij2NCYhzgSBDYOi7sn3Gc5y8006sihGuWJF2c6MEoTN49",
+            "name": "CG CFN Raw fiber 2026-10-12",
+            "__typename": "ResourceSpecification"
+          },
+          "stage": {
+            "id": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe",
+            "name": "CG CFN Initial 2026-10-12",
+            "__typename": "ProcessSpecification"
+          },
+          "accountingQuantity": {
+            "hasNumericalValue": 25,
+            "__typename": "Measure"
+          },
+          "onhandQuantity": {
+            "hasNumericalValue": 25,
+            "__typename": "Measure"
+          },
+          "__typename": "EconomicResource",
+          "raw": {
+            "revision": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+            "storedId": null,
+            "accounting": 25,
+            "onhand": 25,
+            "primaryAccountable": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "stage": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+          }
+        },
+        {
+          "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "name": "CG CFN Prepared fiber 2026-10-12",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "trackingIdentifier": null,
+          "primaryAccountable": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "name": "CG CFN Farm 2026-10-12",
+            "__typename": "Organization"
+          },
+          "conformsTo": {
+            "id": "uhCkkHe0O-3zWscEA5h8D1lHrl7Nh6Q1NIGnHQd4xLskz-G8LkY_E",
+            "name": "CG CFN Prepared fiber 2026-10-12",
+            "__typename": "ResourceSpecification"
+          },
+          "stage": null,
+          "accountingQuantity": {
+            "hasNumericalValue": 5,
+            "__typename": "Measure"
+          },
+          "onhandQuantity": {
+            "hasNumericalValue": 5,
+            "__typename": "Measure"
+          },
+          "__typename": "EconomicResource",
+          "raw": {
+            "revision": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+            "storedId": null,
+            "accounting": 5,
+            "onhand": 5,
+            "primaryAccountable": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "stage": null
+          }
+        },
+        {
+          "id": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "name": "CG CFN Yarn 2026-10-12",
+          "note": "commonground-cfn-2026-10-12; UI spin-produce",
+          "trackingIdentifier": null,
+          "primaryAccountable": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "name": "CG CFN Farm 2026-10-12",
+            "__typename": "Organization"
+          },
+          "conformsTo": {
+            "id": "uhCkkpkkMvZZF9SY9vRI9PLEsUTXcx_ejhMnSWoWyfhatQQoXC2kJ",
+            "name": "CG CFN Yarn 2026-10-12",
+            "__typename": "ResourceSpecification"
+          },
+          "stage": null,
+          "accountingQuantity": {
+            "hasNumericalValue": 4,
+            "__typename": "Measure"
+          },
+          "onhandQuantity": {
+            "hasNumericalValue": 4,
+            "__typename": "Measure"
+          },
+          "__typename": "EconomicResource",
+          "raw": {
+            "revision": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+            "storedId": null,
+            "accounting": 4,
+            "onhand": 4,
+            "primaryAccountable": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "stage": null
+          }
+        },
+        {
+          "id": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+          "name": "CG CFN API probe destination 2026-10-12",
+          "note": "commonground-cfn-2026-10-12-probe",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-probe-destination",
+          "primaryAccountable": {
+            "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "name": "CG CFN Workshop 2026-10-12",
+            "__typename": "Organization"
+          },
+          "conformsTo": {
+            "id": "uhCkkmL7Ij2NCYhzgSBDYOi7sn3Gc5y8006sihGuWJF2c6MEoTN49",
+            "name": "CG CFN Raw fiber 2026-10-12",
+            "__typename": "ResourceSpecification"
+          },
+          "stage": {
+            "id": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe",
+            "name": "CG CFN Initial 2026-10-12",
+            "__typename": "ProcessSpecification"
+          },
+          "accountingQuantity": {
+            "hasNumericalValue": 0,
+            "__typename": "Measure"
+          },
+          "onhandQuantity": {
+            "hasNumericalValue": 0,
+            "__typename": "Measure"
+          },
+          "__typename": "EconomicResource",
+          "raw": {
+            "revision": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+            "storedId": null,
+            "accounting": 0,
+            "onhand": 0,
+            "primaryAccountable": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "stage": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+          }
+        },
+        {
+          "id": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+          "name": "CG CFN API probe lot 2026-10-12",
+          "note": "commonground-cfn-2026-10-12-probe",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-probe",
+          "primaryAccountable": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "name": "CG CFN Farm 2026-10-12",
+            "__typename": "Organization"
+          },
+          "conformsTo": {
+            "id": "uhCkkmL7Ij2NCYhzgSBDYOi7sn3Gc5y8006sihGuWJF2c6MEoTN49",
+            "name": "CG CFN Raw fiber 2026-10-12",
+            "__typename": "ResourceSpecification"
+          },
+          "stage": {
+            "id": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe",
+            "name": "CG CFN Initial 2026-10-12",
+            "__typename": "ProcessSpecification"
+          },
+          "accountingQuantity": {
+            "hasNumericalValue": 8,
+            "__typename": "Measure"
+          },
+          "onhandQuantity": {
+            "hasNumericalValue": 8,
+            "__typename": "Measure"
+          },
+          "__typename": "EconomicResource",
+          "raw": {
+            "revision": "uhCkkYNmSb5gz_ZXj7hg0H8wI3gwcV_hhHrE394dz9xD5uuVEXeUt",
+            "storedId": null,
+            "accounting": 8,
+            "onhand": 8,
+            "primaryAccountable": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "stage": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "uhCkk_WipD-fKfsN4qIWMCK-9-xj-LsB_bslViEg0p4gHIeaGzW6v",
+          "note": "commonground-cfn-2026-10-12; opening balance 25 kg",
+          "action": {
+            "id": "raise",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 25,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+          "note": "commonground-cfn-2026-10-12; UI prepare-consume",
+          "action": {
+            "id": "consume",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 5,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": null,
+          "toResourceInventoriedAs": null,
+          "inputOf": {
+            "id": "uhCkkQ6PZCsWu8dpEFv0StKV4BZ94gukWsao3q4LHFKDxE4YOJGtU",
+            "__typename": "Process"
+          },
+          "outputOf": null,
+          "fulfills": [
+            {
+              "id": "uhCkkZuLwA1Tkc_wevz7AXTQ6mahfVMVPyAbOMZ7PURTLh2q__bpg",
+              "__typename": "Commitment"
+            }
+          ],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "action": {
+            "id": "produce",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 5,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": {
+            "id": "uhCkkQ6PZCsWu8dpEFv0StKV4BZ94gukWsao3q4LHFKDxE4YOJGtU",
+            "__typename": "Process"
+          },
+          "fulfills": [
+            {
+              "id": "uhCkkGVvbjb7kwbBPQCzyG9DhibENnlbG-rP12bxjXsaT7mptbc90",
+              "__typename": "Commitment"
+            }
+          ],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkxBpUxLTWsPacAIcmyEaLnQhSdzzdTqNVUGYxtLBwRM8sx6os",
+          "note": "commonground-cfn-2026-10-12; UI spin-consume",
+          "action": {
+            "id": "consume",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 5,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": null,
+          "toResourceInventoriedAs": null,
+          "inputOf": {
+            "id": "uhCkkUnPBjPwyV2AAjX8szmgNz9ECt8xz2pA8KpgHv-eyfy_TTw3u",
+            "__typename": "Process"
+          },
+          "outputOf": null,
+          "fulfills": [
+            {
+              "id": "uhCkk3SxN8ukIVJ1F822F9Mo8Y2_UexNBbIFB2EDHQPM1bEsiIiGR",
+              "__typename": "Commitment"
+            }
+          ],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkSaZkm2HRp4h6-jEX5Zxa3UkVgrxhv1a1Zap-HESLnmqWv0vY",
+          "note": "commonground-cfn-2026-10-12; UI spin-produce",
+          "action": {
+            "id": "produce",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 4,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": {
+            "id": "uhCkkUnPBjPwyV2AAjX8szmgNz9ECt8xz2pA8KpgHv-eyfy_TTw3u",
+            "__typename": "Process"
+          },
+          "fulfills": [
+            {
+              "id": "uhCkkria3iLNqLf_f875WaA0qACcdh9egVD0k2CjpXEhgpbAmgowu",
+              "__typename": "Commitment"
+            }
+          ],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkNJtNL83MHFHfSYKRRaZIg5a8WFB3SErubf2V3qemq7X-M2TS",
+          "note": "commonground-cfn-2026-10-12; UI Activity transfer",
+          "action": {
+            "id": "transfer",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 4,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": null,
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkyjnkCbTZtM4_x_ZtxYHwo1t6Y_8z74ygp7Bm89ALdjy1G_4d",
+          "note": "commonground-cfn-2026-10-12; API probe opening 10 kg",
+          "action": {
+            "id": "raise",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 10,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkk94dRNvhRS4uyT5aICeYH078aJbL103tCSJ0hbrNyV89YSKpI",
+          "note": "commonground-cfn-2026-10-12; API probe consume 2 kg with explicit lot",
+          "action": {
+            "id": "consume",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 2,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkktDkf6UjRAdawFk5mojueI0sluWrwWX-T6XxrhptJL-9yiUw0",
+          "note": "commonground-cfn-2026-10-12; API probe destination zero balance",
+          "action": {
+            "id": "raise",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 0,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkixgN8heAHv7xXSJCWwvjYgSp51rWi3DkxUgpDcQZYe1QBEBk",
+          "note": "commonground-cfn-2026-10-12; API probe transfer 3 kg with explicit source and target",
+          "action": {
+            "id": "transfer",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 3,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkklrf6DfjUQFQ3LFaLZ7duGfBQh_0NUAQL0FuTIY247c3UIQtA",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": {
+            "id": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+            "__typename": "EconomicResource"
+          },
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        }
+      ],
+      "plans": [
+        {
+          "id": "uhCkk1sobxYn86VwYXjWAIZFati3cpxF_zUKHdceYGboISe0A0d2b",
+          "name": "CG CFN Two-stage API plan 2026-10-12",
+          "note": "commonground-cfn-2026-10-12; diagnostic API seed, UI planner did not generate this plan",
+          "processes": [
+            {
+              "id": "uhCkkQ6PZCsWu8dpEFv0StKV4BZ94gukWsao3q4LHFKDxE4YOJGtU",
+              "name": "CG CFN Prepare execution 2026-10-12",
+              "committedInputs": [
+                {
+                  "id": "uhCkkZuLwA1Tkc_wevz7AXTQ6mahfVMVPyAbOMZ7PURTLh2q__bpg",
+                  "action": {
+                    "id": "consume",
+                    "__typename": "Action"
+                  },
+                  "resourceQuantity": {
+                    "hasNumericalValue": 5,
+                    "__typename": "Measure"
+                  },
+                  "fulfilledBy": [
+                    {
+                      "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+                      "__typename": "EconomicEvent"
+                    }
+                  ],
+                  "__typename": "Commitment"
+                }
+              ],
+              "committedOutputs": [
+                {
+                  "id": "uhCkkGVvbjb7kwbBPQCzyG9DhibENnlbG-rP12bxjXsaT7mptbc90",
+                  "action": {
+                    "id": "produce",
+                    "__typename": "Action"
+                  },
+                  "resourceQuantity": {
+                    "hasNumericalValue": 5,
+                    "__typename": "Measure"
+                  },
+                  "fulfilledBy": [
+                    {
+                      "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+                      "__typename": "EconomicEvent"
+                    }
+                  ],
+                  "__typename": "Commitment"
+                }
+              ],
+              "__typename": "Process"
+            },
+            {
+              "id": "uhCkkUnPBjPwyV2AAjX8szmgNz9ECt8xz2pA8KpgHv-eyfy_TTw3u",
+              "name": "CG CFN Spin execution 2026-10-12",
+              "committedInputs": [
+                {
+                  "id": "uhCkk3SxN8ukIVJ1F822F9Mo8Y2_UexNBbIFB2EDHQPM1bEsiIiGR",
+                  "action": {
+                    "id": "consume",
+                    "__typename": "Action"
+                  },
+                  "resourceQuantity": {
+                    "hasNumericalValue": 5,
+                    "__typename": "Measure"
+                  },
+                  "fulfilledBy": [
+                    {
+                      "id": "uhCkkxBpUxLTWsPacAIcmyEaLnQhSdzzdTqNVUGYxtLBwRM8sx6os",
+                      "__typename": "EconomicEvent"
+                    }
+                  ],
+                  "__typename": "Commitment"
+                }
+              ],
+              "committedOutputs": [
+                {
+                  "id": "uhCkkria3iLNqLf_f875WaA0qACcdh9egVD0k2CjpXEhgpbAmgowu",
+                  "action": {
+                    "id": "produce",
+                    "__typename": "Action"
+                  },
+                  "resourceQuantity": {
+                    "hasNumericalValue": 4,
+                    "__typename": "Measure"
+                  },
+                  "fulfilledBy": [
+                    {
+                      "id": "uhCkkSaZkm2HRp4h6-jEX5Zxa3UkVgrxhv1a1Zap-HESLnmqWv0vY",
+                      "__typename": "EconomicEvent"
+                    }
+                  ],
+                  "__typename": "Commitment"
+                }
+              ],
+              "__typename": "Process"
+            }
+          ],
+          "__typename": "Plan"
+        }
+      ]
+    },
+    {
+      "port": 9223,
+      "observedAt": "2026-10-12T10:39:10.842Z",
+      "agent": "uhCAkuzoB5WAA_Mq1c329ipIhQ1rPBaNf4d7LXLkWeZf7KkpCxjB4",
+      "dnas": {
+        "migration": [
+          "uhC0kK-mNc4FNAoRyn6qrL-tO7pr6GJul3GvXKvnHl4ghVc804TEk"
+        ],
+        "hrea_facets_0": [
+          "uhC0kIPOkgqf036jAstrhTvbFJfSf4UTQ7zBoqFG8zvg-lh06rYjQ"
+        ],
+        "hrea": [
+          "uhC0k5ZfeLQrwtwO7TroO9QovlPQ5w3yW5cXpijlNIa1epXl2tI4l"
+        ]
+      },
+      "actors": [
+        {
+          "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+          "name": "CG CFN Workshop 2026-10-12",
+          "__typename": "Organization",
+          "author": "uhCAkuzoB5WAA_Mq1c329ipIhQ1rPBaNf4d7LXLkWeZf7KkpCxjB4"
+        },
+        {
+          "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "name": "CG CFN Farm 2026-10-12",
+          "__typename": "Organization",
+          "author": "uhCAkv_4GxdT8mZKZjNa3ICnZcxCFFEYAaplYTIzT9_7CMvF8A2FC"
+        }
+      ],
+      "resources": [
+        {
+          "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "name": "CG CFN Raw lot 2026-10-12",
+          "note": "commonground-cfn-2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-raw",
+          "primaryAccountable": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "name": "CG CFN Farm 2026-10-12",
+            "__typename": "Organization"
+          },
+          "conformsTo": {
+            "id": "uhCkkmL7Ij2NCYhzgSBDYOi7sn3Gc5y8006sihGuWJF2c6MEoTN49",
+            "name": "CG CFN Raw fiber 2026-10-12",
+            "__typename": "ResourceSpecification"
+          },
+          "stage": {
+            "id": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe",
+            "name": "CG CFN Initial 2026-10-12",
+            "__typename": "ProcessSpecification"
+          },
+          "accountingQuantity": {
+            "hasNumericalValue": 25,
+            "__typename": "Measure"
+          },
+          "onhandQuantity": {
+            "hasNumericalValue": 25,
+            "__typename": "Measure"
+          },
+          "__typename": "EconomicResource",
+          "raw": {
+            "revision": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+            "storedId": null,
+            "accounting": 25,
+            "onhand": 25,
+            "primaryAccountable": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "stage": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+          }
+        },
+        {
+          "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "name": "CG CFN Prepared fiber 2026-10-12",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "trackingIdentifier": null,
+          "primaryAccountable": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "name": "CG CFN Farm 2026-10-12",
+            "__typename": "Organization"
+          },
+          "conformsTo": {
+            "id": "uhCkkHe0O-3zWscEA5h8D1lHrl7Nh6Q1NIGnHQd4xLskz-G8LkY_E",
+            "name": "CG CFN Prepared fiber 2026-10-12",
+            "__typename": "ResourceSpecification"
+          },
+          "stage": null,
+          "accountingQuantity": {
+            "hasNumericalValue": 5,
+            "__typename": "Measure"
+          },
+          "onhandQuantity": {
+            "hasNumericalValue": 5,
+            "__typename": "Measure"
+          },
+          "__typename": "EconomicResource",
+          "raw": {
+            "revision": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+            "storedId": null,
+            "accounting": 5,
+            "onhand": 5,
+            "primaryAccountable": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "stage": null
+          }
+        },
+        {
+          "id": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "name": "CG CFN Yarn 2026-10-12",
+          "note": "commonground-cfn-2026-10-12; UI spin-produce",
+          "trackingIdentifier": null,
+          "primaryAccountable": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "name": "CG CFN Farm 2026-10-12",
+            "__typename": "Organization"
+          },
+          "conformsTo": {
+            "id": "uhCkkpkkMvZZF9SY9vRI9PLEsUTXcx_ejhMnSWoWyfhatQQoXC2kJ",
+            "name": "CG CFN Yarn 2026-10-12",
+            "__typename": "ResourceSpecification"
+          },
+          "stage": null,
+          "accountingQuantity": {
+            "hasNumericalValue": 4,
+            "__typename": "Measure"
+          },
+          "onhandQuantity": {
+            "hasNumericalValue": 4,
+            "__typename": "Measure"
+          },
+          "__typename": "EconomicResource",
+          "raw": {
+            "revision": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+            "storedId": null,
+            "accounting": 4,
+            "onhand": 4,
+            "primaryAccountable": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "stage": null
+          }
+        },
+        {
+          "id": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+          "name": "CG CFN API probe destination 2026-10-12",
+          "note": "commonground-cfn-2026-10-12-probe",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-probe-destination",
+          "primaryAccountable": {
+            "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "name": "CG CFN Workshop 2026-10-12",
+            "__typename": "Organization"
+          },
+          "conformsTo": {
+            "id": "uhCkkmL7Ij2NCYhzgSBDYOi7sn3Gc5y8006sihGuWJF2c6MEoTN49",
+            "name": "CG CFN Raw fiber 2026-10-12",
+            "__typename": "ResourceSpecification"
+          },
+          "stage": {
+            "id": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe",
+            "name": "CG CFN Initial 2026-10-12",
+            "__typename": "ProcessSpecification"
+          },
+          "accountingQuantity": {
+            "hasNumericalValue": 0,
+            "__typename": "Measure"
+          },
+          "onhandQuantity": {
+            "hasNumericalValue": 0,
+            "__typename": "Measure"
+          },
+          "__typename": "EconomicResource",
+          "raw": {
+            "revision": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+            "storedId": null,
+            "accounting": 0,
+            "onhand": 0,
+            "primaryAccountable": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "stage": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+          }
+        },
+        {
+          "id": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+          "name": "CG CFN API probe lot 2026-10-12",
+          "note": "commonground-cfn-2026-10-12-probe",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-probe",
+          "primaryAccountable": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "name": "CG CFN Farm 2026-10-12",
+            "__typename": "Organization"
+          },
+          "conformsTo": {
+            "id": "uhCkkmL7Ij2NCYhzgSBDYOi7sn3Gc5y8006sihGuWJF2c6MEoTN49",
+            "name": "CG CFN Raw fiber 2026-10-12",
+            "__typename": "ResourceSpecification"
+          },
+          "stage": {
+            "id": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe",
+            "name": "CG CFN Initial 2026-10-12",
+            "__typename": "ProcessSpecification"
+          },
+          "accountingQuantity": {
+            "hasNumericalValue": 8,
+            "__typename": "Measure"
+          },
+          "onhandQuantity": {
+            "hasNumericalValue": 8,
+            "__typename": "Measure"
+          },
+          "__typename": "EconomicResource",
+          "raw": {
+            "revision": "uhCkkYNmSb5gz_ZXj7hg0H8wI3gwcV_hhHrE394dz9xD5uuVEXeUt",
+            "storedId": null,
+            "accounting": 8,
+            "onhand": 8,
+            "primaryAccountable": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "stage": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "uhCkk_WipD-fKfsN4qIWMCK-9-xj-LsB_bslViEg0p4gHIeaGzW6v",
+          "note": "commonground-cfn-2026-10-12; opening balance 25 kg",
+          "action": {
+            "id": "raise",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 25,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+          "note": "commonground-cfn-2026-10-12; UI prepare-consume",
+          "action": {
+            "id": "consume",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 5,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": null,
+          "toResourceInventoriedAs": null,
+          "inputOf": {
+            "id": "uhCkkQ6PZCsWu8dpEFv0StKV4BZ94gukWsao3q4LHFKDxE4YOJGtU",
+            "__typename": "Process"
+          },
+          "outputOf": null,
+          "fulfills": [
+            {
+              "id": "uhCkkZuLwA1Tkc_wevz7AXTQ6mahfVMVPyAbOMZ7PURTLh2q__bpg",
+              "__typename": "Commitment"
+            }
+          ],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "action": {
+            "id": "produce",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 5,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": {
+            "id": "uhCkkQ6PZCsWu8dpEFv0StKV4BZ94gukWsao3q4LHFKDxE4YOJGtU",
+            "__typename": "Process"
+          },
+          "fulfills": [
+            {
+              "id": "uhCkkGVvbjb7kwbBPQCzyG9DhibENnlbG-rP12bxjXsaT7mptbc90",
+              "__typename": "Commitment"
+            }
+          ],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkxBpUxLTWsPacAIcmyEaLnQhSdzzdTqNVUGYxtLBwRM8sx6os",
+          "note": "commonground-cfn-2026-10-12; UI spin-consume",
+          "action": {
+            "id": "consume",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 5,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": null,
+          "toResourceInventoriedAs": null,
+          "inputOf": {
+            "id": "uhCkkUnPBjPwyV2AAjX8szmgNz9ECt8xz2pA8KpgHv-eyfy_TTw3u",
+            "__typename": "Process"
+          },
+          "outputOf": null,
+          "fulfills": [
+            {
+              "id": "uhCkk3SxN8ukIVJ1F822F9Mo8Y2_UexNBbIFB2EDHQPM1bEsiIiGR",
+              "__typename": "Commitment"
+            }
+          ],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkSaZkm2HRp4h6-jEX5Zxa3UkVgrxhv1a1Zap-HESLnmqWv0vY",
+          "note": "commonground-cfn-2026-10-12; UI spin-produce",
+          "action": {
+            "id": "produce",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 4,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": {
+            "id": "uhCkkUnPBjPwyV2AAjX8szmgNz9ECt8xz2pA8KpgHv-eyfy_TTw3u",
+            "__typename": "Process"
+          },
+          "fulfills": [
+            {
+              "id": "uhCkkria3iLNqLf_f875WaA0qACcdh9egVD0k2CjpXEhgpbAmgowu",
+              "__typename": "Commitment"
+            }
+          ],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkNJtNL83MHFHfSYKRRaZIg5a8WFB3SErubf2V3qemq7X-M2TS",
+          "note": "commonground-cfn-2026-10-12; UI Activity transfer",
+          "action": {
+            "id": "transfer",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 4,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": null,
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkyjnkCbTZtM4_x_ZtxYHwo1t6Y_8z74ygp7Bm89ALdjy1G_4d",
+          "note": "commonground-cfn-2026-10-12; API probe opening 10 kg",
+          "action": {
+            "id": "raise",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 10,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkk94dRNvhRS4uyT5aICeYH078aJbL103tCSJ0hbrNyV89YSKpI",
+          "note": "commonground-cfn-2026-10-12; API probe consume 2 kg with explicit lot",
+          "action": {
+            "id": "consume",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 2,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkktDkf6UjRAdawFk5mojueI0sluWrwWX-T6XxrhptJL-9yiUw0",
+          "note": "commonground-cfn-2026-10-12; API probe destination zero balance",
+          "action": {
+            "id": "raise",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 0,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": null,
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        },
+        {
+          "id": "uhCkkixgN8heAHv7xXSJCWwvjYgSp51rWi3DkxUgpDcQZYe1QBEBk",
+          "note": "commonground-cfn-2026-10-12; API probe transfer 3 kg with explicit source and target",
+          "action": {
+            "id": "transfer",
+            "__typename": "Action"
+          },
+          "provider": {
+            "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+            "__typename": "Organization"
+          },
+          "receiver": {
+            "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+            "__typename": "Organization"
+          },
+          "resourceQuantity": {
+            "hasNumericalValue": 3,
+            "__typename": "Measure"
+          },
+          "resourceInventoriedAs": {
+            "id": "uhCkklrf6DfjUQFQ3LFaLZ7duGfBQh_0NUAQL0FuTIY247c3UIQtA",
+            "__typename": "EconomicResource"
+          },
+          "toResourceInventoriedAs": {
+            "id": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+            "__typename": "EconomicResource"
+          },
+          "inputOf": null,
+          "outputOf": null,
+          "fulfills": [],
+          "__typename": "EconomicEvent"
+        }
+      ],
+      "plans": [
+        {
+          "id": "uhCkk1sobxYn86VwYXjWAIZFati3cpxF_zUKHdceYGboISe0A0d2b",
+          "name": "CG CFN Two-stage API plan 2026-10-12",
+          "note": "commonground-cfn-2026-10-12; diagnostic API seed, UI planner did not generate this plan",
+          "processes": [
+            {
+              "id": "uhCkkQ6PZCsWu8dpEFv0StKV4BZ94gukWsao3q4LHFKDxE4YOJGtU",
+              "name": "CG CFN Prepare execution 2026-10-12",
+              "committedInputs": [
+                {
+                  "id": "uhCkkZuLwA1Tkc_wevz7AXTQ6mahfVMVPyAbOMZ7PURTLh2q__bpg",
+                  "action": {
+                    "id": "consume",
+                    "__typename": "Action"
+                  },
+                  "resourceQuantity": {
+                    "hasNumericalValue": 5,
+                    "__typename": "Measure"
+                  },
+                  "fulfilledBy": [
+                    {
+                      "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+                      "__typename": "EconomicEvent"
+                    }
+                  ],
+                  "__typename": "Commitment"
+                }
+              ],
+              "committedOutputs": [
+                {
+                  "id": "uhCkkGVvbjb7kwbBPQCzyG9DhibENnlbG-rP12bxjXsaT7mptbc90",
+                  "action": {
+                    "id": "produce",
+                    "__typename": "Action"
+                  },
+                  "resourceQuantity": {
+                    "hasNumericalValue": 5,
+                    "__typename": "Measure"
+                  },
+                  "fulfilledBy": [
+                    {
+                      "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+                      "__typename": "EconomicEvent"
+                    }
+                  ],
+                  "__typename": "Commitment"
+                }
+              ],
+              "__typename": "Process"
+            },
+            {
+              "id": "uhCkkUnPBjPwyV2AAjX8szmgNz9ECt8xz2pA8KpgHv-eyfy_TTw3u",
+              "name": "CG CFN Spin execution 2026-10-12",
+              "committedInputs": [
+                {
+                  "id": "uhCkk3SxN8ukIVJ1F822F9Mo8Y2_UexNBbIFB2EDHQPM1bEsiIiGR",
+                  "action": {
+                    "id": "consume",
+                    "__typename": "Action"
+                  },
+                  "resourceQuantity": {
+                    "hasNumericalValue": 5,
+                    "__typename": "Measure"
+                  },
+                  "fulfilledBy": [
+                    {
+                      "id": "uhCkkxBpUxLTWsPacAIcmyEaLnQhSdzzdTqNVUGYxtLBwRM8sx6os",
+                      "__typename": "EconomicEvent"
+                    }
+                  ],
+                  "__typename": "Commitment"
+                }
+              ],
+              "committedOutputs": [
+                {
+                  "id": "uhCkkria3iLNqLf_f875WaA0qACcdh9egVD0k2CjpXEhgpbAmgowu",
+                  "action": {
+                    "id": "produce",
+                    "__typename": "Action"
+                  },
+                  "resourceQuantity": {
+                    "hasNumericalValue": 4,
+                    "__typename": "Measure"
+                  },
+                  "fulfilledBy": [
+                    {
+                      "id": "uhCkkSaZkm2HRp4h6-jEX5Zxa3UkVgrxhv1a1Zap-HESLnmqWv0vY",
+                      "__typename": "EconomicEvent"
+                    }
+                  ],
+                  "__typename": "Commitment"
+                }
+              ],
+              "__typename": "Process"
+            }
+          ],
+          "__typename": "Plan"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "independent-signers",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "same-dnas",
+      "status": "PASS",
+      "expected": {
+        "migration": [
+          "uhC0kK-mNc4FNAoRyn6qrL-tO7pr6GJul3GvXKvnHl4ghVc804TEk"
+        ],
+        "hrea": [
+          "uhC0k5ZfeLQrwtwO7TroO9QovlPQ5w3yW5cXpijlNIa1epXl2tI4l"
+        ],
+        "hrea_facets_0": [
+          "uhC0kIPOkgqf036jAstrhTvbFJfSf4UTQ7zBoqFG8zvg-lh06rYjQ"
+        ]
+      },
+      "actual": {
+        "migration": [
+          "uhC0kK-mNc4FNAoRyn6qrL-tO7pr6GJul3GvXKvnHl4ghVc804TEk"
+        ],
+        "hrea_facets_0": [
+          "uhC0kIPOkgqf036jAstrhTvbFJfSf4UTQ7zBoqFG8zvg-lh06rYjQ"
+        ],
+        "hrea": [
+          "uhC0k5ZfeLQrwtwO7TroO9QovlPQ5w3yW5cXpijlNIa1epXl2tI4l"
+        ]
+      }
+    },
+    {
+      "id": "actors-created-by-their-peers",
+      "status": "PASS",
+      "expected": true,
+      "actual": [
+        {
+          "id": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+          "name": "CG CFN Workshop 2026-10-12",
+          "__typename": "Organization",
+          "author": "uhCAkuzoB5WAA_Mq1c329ipIhQ1rPBaNf4d7LXLkWeZf7KkpCxjB4"
+        },
+        {
+          "id": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "name": "CG CFN Farm 2026-10-12",
+          "__typename": "Organization",
+          "author": "uhCAkv_4GxdT8mZKZjNa3ICnZcxCFFEYAaplYTIzT9_7CMvF8A2FC"
+        }
+      ]
+    },
+    {
+      "id": "peer-convergence",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "main-event-count",
+      "status": "PASS",
+      "expected": 5,
+      "actual": 5
+    },
+    {
+      "id": "consumption-bound-to-lots",
+      "status": "FAIL",
+      "expected": 2,
+      "actual": 0
+    },
+    {
+      "id": "event-commitment-links",
+      "status": "PASS",
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "id": "produced-resource-stages",
+      "status": "FAIL",
+      "expected": [
+        "CG CFN Prepare 2026-10-12",
+        "CG CFN Spin 2026-10-12"
+      ],
+      "actual": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "main-stock-Raw fiber-Farm",
+      "status": "FAIL",
+      "expected": [
+        20,
+        20
+      ],
+      "actual": [
+        25,
+        25
+      ]
+    },
+    {
+      "id": "main-stock-Prepared fiber-Farm",
+      "status": "FAIL",
+      "expected": [
+        0,
+        0
+      ],
+      "actual": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "main-stock-Yarn-Farm",
+      "status": "FAIL",
+      "expected": [
+        0,
+        0
+      ],
+      "actual": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "main-stock-Yarn-Workshop",
+      "status": "FAIL",
+      "expected": [
+        4,
+        4
+      ],
+      "actual": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "probe-transfer-has-lot-ids",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "probe-transfer-stock-source",
+      "status": "FAIL",
+      "expected": [
+        5,
+        5
+      ],
+      "actual": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "probe-transfer-stock-destination",
+      "status": "FAIL",
+      "expected": [
+        3,
+        3
+      ],
+      "actual": [
+        0,
+        0
+      ]
+    }
+  ]
+}
