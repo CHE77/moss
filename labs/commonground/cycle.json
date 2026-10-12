@@ -1,0 +1,11 @@
+{
+  "scenario": "commonground-bread-v1",
+  "mossBaseCommit": "4a87b935f013491714f347b0c609c391886b969b",
+  "hreaTag": "happ-0.5.0-beta.1",
+  "hreaCommit": "79c8d4fb98c4f7f9a8cf3f7dd69690d6d1334d85",
+  "actors": ["Потребительский кооператив", "Пекарня", "Координатор"],
+  "flour": { "initialKg": 25, "consumedKg": 5, "expectedRemainingKg": 20 },
+  "bread": { "producedPieces": 10, "deliveredPieces": 10, "expectedBakeryPieces": 0, "expectedCooperativePieces": 10 },
+  "labor": { "hours": 3 },
+  "unyt": { "testPaymentUnits": 30, "purpose": "Отдельная проверка расчёта, без автоматического повторения платежа" }
+}

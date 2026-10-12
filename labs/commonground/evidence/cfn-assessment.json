@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Europe/Amsterdam",
+  "repository": "Carbon-Farm-Network/app-carbon-farm-network",
+  "sourceTag": "v0.6.0",
+  "sourceCommit": "afd20c2b27ff177f2d703e3b4fbbb3191a346146",
+  "mainCommit": "e50f946233464e810e8387163028ce8f068c3c99",
+  "sourceMainDiff": "one README line only",
+  "installedVersion": "0.6.0",
+  "webhappSha256": "1647ac52aafa046c9ee11b0c4db2552254a0f4f0f516c4f00720df5e90678c0c",
+  "sourceLicense": "AGPL-3.0",
+  "sourceReview": {
+    "inventory": "PRESENT",
+    "recipeBasedPlanning": "PRESENT",
+    "inventoryAwareDemandCalculation": "PRESENT",
+    "eventFulfillment": "PRESENT",
+    "jsonImportReturnShape": "inconsistency found by source review; not a live failure",
+    "sourceRuntime": "holonix main-0.4; HDK 0.4.0 / HDI 0.5.0",
+    "uiDependencies": "Svelte 3.59.1; Holochain JS 0.18.0-dev.13",
+    "binarySourceEquivalence": "NOT ESTABLISHED; installed Cash navigation differs from source Nav"
+  },
+  "checks": {
+    "inventoryNavigation": "PASS",
+    "plansNavigation": "PASS",
+    "planDraftNavigation": "PASS",
+    "initialInventoryCreation": "NOT RUN",
+    "planGenerationWithInputs": "NOT RUN",
+    "planSave": "NOT RUN",
+    "resourceTransferTwoBalances": "NOT RUN",
+    "multipleActorsSynchronization": "NOT RUN",
+    "conditionalSettlement": "NOT RUN",
+    "migrationTo08": "NOT RUN"
+  },
+  "mutations": {
+    "domainRecordsCreated": false,
+    "paymentsCreated": false,
+    "forkCreated": false,
+    "unsavedDraftClosedByNavigation": true
+  },
+  "observations": [
+    {
+      "step": "inventory-read",
+      "observedAtUtc": "2026-10-11T23:03:15.488Z",
+      "excerpt": "Economic resources; Beginning Balance; fields: Provider, Receiver, Resource specification, raise, Quantity, Unit, Resource Name/Stage/Tracking Identifier/Description.",
+      "loadingRecipes": null
+    },
+    {
+      "step": "plans-read",
+      "observedAtUtc": "2026-10-11T23:03:16.718Z",
+      "excerpt": "Plans; Current operational planning; Add a plan; Name/Description.",
+      "loadingRecipes": null
+    },
+    {
+      "step": "plan-draft-read",
+      "observedAtUtc": "2026-10-11T23:04:14.946Z",
+      "excerpt": "Map\nOffers\nRequests\nPlans\nExchanges\nActivity\nCash\nInventory\nOpen user menu\nPlanning\n\nCreating and modifying a plan, and recording actual activity\n\nSave plan\nOffers\nTotal cost: $0\nSatisfy Requests\nLoading recipes...\nRequests\nuntitled page",
+      "loadingRecipes": null
+    },
+    {
+      "step": "plan-draft-later-read",
+      "observedAtUtc": "2026-10-11T23:07:57.881Z",
+      "excerpt": "Map\nOffers\nRequests\nPlans\nExchanges\nActivity\nCash\nInventory\nOpen user menu\nPlanning\n\nCreating and modifying a plan, and recording actual activity\n\nSave plan\nOffers\nTotal cost: $0\nSatisfy Requests\nLoading recipes...\nRequests\nuntitled page",
+      "loadingRecipes": true
+    }
+  ],
+  "observedLimitation": {
+    "planningLoadingRecipesStillPresentAfterSeconds": 223,
+    "cause": "not established; plan generation not confirmed"
+  }
+}

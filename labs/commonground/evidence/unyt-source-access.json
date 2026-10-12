@@ -1,0 +1,17 @@
+[
+  {
+    "html_url": "https://github.com/unytco/unyt-sandbox/blob/main/LICENSE",
+    "license": "Apache-2.0",
+    "repository": "unytco/unyt-sandbox"
+  },
+  {
+    "html_url": "https://github.com/unytco/smart_agreement_library/blob/main/LICENSE",
+    "license": "GPL-3.0",
+    "repository": "unytco/smart_agreement_library"
+  },
+  {
+    "repository": "unytco/unyt-app",
+    "githubApiStatus": 404,
+    "visibility": "unavailable to authenticated CHE77; reason private/deleted/absent not distinguishable"
+  }
+]

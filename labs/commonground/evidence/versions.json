@@ -1,0 +1,56 @@
+{
+  "os": "Ubuntu 24.04.4 LTS x86_64",
+  "node": "24.21.0",
+  "yarn": "1.22.22",
+  "nix": "2.35.2",
+  "rust": "1.95.0",
+  "mossSourceCommit": "4a87b935f013491714f347b0c609c391886b969b",
+  "mossSourcePackage": "0.15.6",
+  "mossSourceHolochainConfig": "0.6.1-rc.7",
+  "mossDesktop": "0.15.8",
+  "mossLiveHolochain": "0.6.1",
+  "mossAppImageSha256": "bb495a46769d88df0fb08f5569c8f010d510a63496710e1ac80c4c93e1bd50ea",
+  "hreaTag": "happ-0.5.0-beta.1",
+  "hreaCommit": "79c8d4fb98c4f7f9a8cf3f7dd69690d6d1334d85",
+  "hreaPublishedBundle": {
+    "browser_download_url": "https://github.com/h-REA/hREA/releases/download/happ-0.5.0-beta.1/hrea.happ",
+    "digest": "sha256:b9a7c3f0dd81fa934ba69b5054b7cdf58008526ee77ce57351b30cc5900a43a7",
+    "name": "hrea.happ",
+    "size": 1482411
+  },
+  "hreaBuiltBundleSha256": "87278f055ad46a952ce9affd7b3461d807db7970f6870e624c015b7967286134",
+  "hreaBinaryRelease": "holochain-0.7.0",
+  "hreaBinaries": [
+    {
+      "browser_download_url": "https://github.com/holochain/holochain/releases/download/holochain-0.7.0/hc-x86_64-unknown-linux-gnu",
+      "digest": "sha256:f1eca56b97bc2261324e00e0e86a274f7dc8363f73264e697fd0c0216b2aac23",
+      "name": "hc-x86_64-unknown-linux-gnu",
+      "size": 9151992
+    },
+    {
+      "browser_download_url": "https://github.com/holochain/holochain/releases/download/holochain-0.7.0/holochain-x86_64-unknown-linux-gnu",
+      "digest": "sha256:ffa40a0c6fab5ce062c4af76328dfe2de143256ddf791a504d72bca698a9ba20",
+      "name": "holochain-x86_64-unknown-linux-gnu",
+      "size": 54353368
+    },
+    {
+      "browser_download_url": "https://github.com/holochain/holochain/releases/download/holochain-0.7.0/kitsune2-bootstrap-srv-x86_64-unknown-linux-gnu",
+      "digest": "sha256:ba5a61c981300c1854e33cec5a091bfb2f9137ea977a938685eef0afa809b7be",
+      "name": "kitsune2-bootstrap-srv-x86_64-unknown-linux-gnu",
+      "size": 14856320
+    },
+    {
+      "browser_download_url": "https://github.com/holochain/holochain/releases/download/holochain-0.7.0/lair-keystore-x86_64-unknown-linux-gnu",
+      "digest": "sha256:7a77822ab5e0020d0f3c358030d4ccfa8c6c144407a5c075d302c7b0fcf670c1",
+      "name": "lair-keystore-x86_64-unknown-linux-gnu",
+      "size": 14093576
+    }
+  ],
+  "hreaLiveVersions": {
+    "holochain": "0.7.0",
+    "hc": "0.7.0",
+    "lair-keystore": "0.7.1",
+    "kitsune2-bootstrap-srv": "0.5.0"
+  },
+  "dependencyNote": "hREA local .yarnrc: --install.ignore-optional true; frozen yarn.lock; no global Yarn config change."
+}

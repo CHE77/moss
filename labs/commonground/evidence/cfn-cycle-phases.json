@@ -1,0 +1,946 @@
+{
+  "schemaVersion": 1,
+  "marker": "commonground-cfn-2026-10-12",
+  "offlinePeer": 9223,
+  "offlineWindowUTC": {
+    "stopped": "2026-10-12T10:15:36.301962Z",
+    "started": "2026-10-12T10:16:28.468906Z"
+  },
+  "phases": [
+    {
+      "phase": "after-prepare-consume",
+      "port": 9222,
+      "observedAt": "2026-10-12T10:14:28.756Z",
+      "resources": [
+        {
+          "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "name": "CG CFN Raw lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-raw",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 25,
+          "onhand": 25,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        }
+      ],
+      "events": [
+        {
+          "id": "uhCkk_WipD-fKfsN4qIWMCK-9-xj-LsB_bslViEg0p4gHIeaGzW6v",
+          "note": "commonground-cfn-2026-10-12; opening balance 25 kg",
+          "action": "raise",
+          "quantity": 25,
+          "sourceResourceId": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+          "note": "commonground-cfn-2026-10-12; UI prepare-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        }
+      ]
+    },
+    {
+      "phase": "after-prepare-produce",
+      "port": 9222,
+      "observedAt": "2026-10-12T10:14:57.158Z",
+      "resources": [
+        {
+          "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "name": "CG CFN Raw lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-raw",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 25,
+          "onhand": 25,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        },
+        {
+          "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "name": "CG CFN Prepared fiber 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 5,
+          "onhand": 5,
+          "stageId": null
+        }
+      ],
+      "events": [
+        {
+          "id": "uhCkk_WipD-fKfsN4qIWMCK-9-xj-LsB_bslViEg0p4gHIeaGzW6v",
+          "note": "commonground-cfn-2026-10-12; opening balance 25 kg",
+          "action": "raise",
+          "quantity": 25,
+          "sourceResourceId": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+          "note": "commonground-cfn-2026-10-12; UI prepare-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "action": "produce",
+          "quantity": 5,
+          "sourceResourceId": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "destinationResourceId": null
+        }
+      ]
+    },
+    {
+      "phase": "peer2-after-prepare",
+      "port": 9223,
+      "observedAt": "2026-10-12T10:15:11.313Z",
+      "resources": [
+        {
+          "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "name": "CG CFN Raw lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-raw",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 25,
+          "onhand": 25,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        },
+        {
+          "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "name": "CG CFN Prepared fiber 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 5,
+          "onhand": 5,
+          "stageId": null
+        }
+      ],
+      "events": [
+        {
+          "id": "uhCkk_WipD-fKfsN4qIWMCK-9-xj-LsB_bslViEg0p4gHIeaGzW6v",
+          "note": "commonground-cfn-2026-10-12; opening balance 25 kg",
+          "action": "raise",
+          "quantity": 25,
+          "sourceResourceId": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+          "note": "commonground-cfn-2026-10-12; UI prepare-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "action": "produce",
+          "quantity": 5,
+          "sourceResourceId": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "destinationResourceId": null
+        }
+      ]
+    },
+    {
+      "phase": "after-spin-peer2-offline",
+      "port": 9222,
+      "observedAt": "2026-10-12T10:15:37.725Z",
+      "resources": [
+        {
+          "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "name": "CG CFN Raw lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-raw",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 25,
+          "onhand": 25,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        },
+        {
+          "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "name": "CG CFN Prepared fiber 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 5,
+          "onhand": 5,
+          "stageId": null
+        },
+        {
+          "id": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "name": "CG CFN Yarn 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 4,
+          "onhand": 4,
+          "stageId": null
+        }
+      ],
+      "events": [
+        {
+          "id": "uhCkk_WipD-fKfsN4qIWMCK-9-xj-LsB_bslViEg0p4gHIeaGzW6v",
+          "note": "commonground-cfn-2026-10-12; opening balance 25 kg",
+          "action": "raise",
+          "quantity": 25,
+          "sourceResourceId": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+          "note": "commonground-cfn-2026-10-12; UI prepare-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "action": "produce",
+          "quantity": 5,
+          "sourceResourceId": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkxBpUxLTWsPacAIcmyEaLnQhSdzzdTqNVUGYxtLBwRM8sx6os",
+          "note": "commonground-cfn-2026-10-12; UI spin-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkSaZkm2HRp4h6-jEX5Zxa3UkVgrxhv1a1Zap-HESLnmqWv0vY",
+          "note": "commonground-cfn-2026-10-12; UI spin-produce",
+          "action": "produce",
+          "quantity": 4,
+          "sourceResourceId": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "destinationResourceId": null
+        }
+      ]
+    },
+    {
+      "phase": "after-ui-activity-transfer",
+      "port": 9222,
+      "observedAt": "2026-10-12T10:17:19.483Z",
+      "resources": [
+        {
+          "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "name": "CG CFN Raw lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-raw",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 25,
+          "onhand": 25,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        },
+        {
+          "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "name": "CG CFN Prepared fiber 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 5,
+          "onhand": 5,
+          "stageId": null
+        },
+        {
+          "id": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "name": "CG CFN Yarn 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 4,
+          "onhand": 4,
+          "stageId": null
+        }
+      ],
+      "events": [
+        {
+          "id": "uhCkk_WipD-fKfsN4qIWMCK-9-xj-LsB_bslViEg0p4gHIeaGzW6v",
+          "note": "commonground-cfn-2026-10-12; opening balance 25 kg",
+          "action": "raise",
+          "quantity": 25,
+          "sourceResourceId": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+          "note": "commonground-cfn-2026-10-12; UI prepare-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "action": "produce",
+          "quantity": 5,
+          "sourceResourceId": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkxBpUxLTWsPacAIcmyEaLnQhSdzzdTqNVUGYxtLBwRM8sx6os",
+          "note": "commonground-cfn-2026-10-12; UI spin-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkSaZkm2HRp4h6-jEX5Zxa3UkVgrxhv1a1Zap-HESLnmqWv0vY",
+          "note": "commonground-cfn-2026-10-12; UI spin-produce",
+          "action": "produce",
+          "quantity": 4,
+          "sourceResourceId": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkNJtNL83MHFHfSYKRRaZIg5a8WFB3SErubf2V3qemq7X-M2TS",
+          "note": "commonground-cfn-2026-10-12; UI Activity transfer",
+          "action": "transfer",
+          "quantity": 4,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        }
+      ]
+    },
+    {
+      "phase": "peer2-after-restart",
+      "port": 9223,
+      "observedAt": "2026-10-12T10:17:40.935Z",
+      "resources": [
+        {
+          "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "name": "CG CFN Raw lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-raw",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 25,
+          "onhand": 25,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        },
+        {
+          "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "name": "CG CFN Prepared fiber 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 5,
+          "onhand": 5,
+          "stageId": null
+        },
+        {
+          "id": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "name": "CG CFN Yarn 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 4,
+          "onhand": 4,
+          "stageId": null
+        }
+      ],
+      "events": [
+        {
+          "id": "uhCkk_WipD-fKfsN4qIWMCK-9-xj-LsB_bslViEg0p4gHIeaGzW6v",
+          "note": "commonground-cfn-2026-10-12; opening balance 25 kg",
+          "action": "raise",
+          "quantity": 25,
+          "sourceResourceId": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+          "note": "commonground-cfn-2026-10-12; UI prepare-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "action": "produce",
+          "quantity": 5,
+          "sourceResourceId": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkxBpUxLTWsPacAIcmyEaLnQhSdzzdTqNVUGYxtLBwRM8sx6os",
+          "note": "commonground-cfn-2026-10-12; UI spin-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkSaZkm2HRp4h6-jEX5Zxa3UkVgrxhv1a1Zap-HESLnmqWv0vY",
+          "note": "commonground-cfn-2026-10-12; UI spin-produce",
+          "action": "produce",
+          "quantity": 4,
+          "sourceResourceId": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkNJtNL83MHFHfSYKRRaZIg5a8WFB3SErubf2V3qemq7X-M2TS",
+          "note": "commonground-cfn-2026-10-12; UI Activity transfer",
+          "action": "transfer",
+          "quantity": 4,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        }
+      ]
+    },
+    {
+      "phase": "after-api-probe-consume",
+      "port": 9222,
+      "observedAt": "2026-10-12T10:19:17.388Z",
+      "resources": [
+        {
+          "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "name": "CG CFN Raw lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-raw",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 25,
+          "onhand": 25,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        },
+        {
+          "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "name": "CG CFN Prepared fiber 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 5,
+          "onhand": 5,
+          "stageId": null
+        },
+        {
+          "id": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "name": "CG CFN Yarn 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 4,
+          "onhand": 4,
+          "stageId": null
+        },
+        {
+          "id": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+          "name": "CG CFN API probe lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-probe",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 8,
+          "onhand": 8,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        }
+      ],
+      "events": [
+        {
+          "id": "uhCkk_WipD-fKfsN4qIWMCK-9-xj-LsB_bslViEg0p4gHIeaGzW6v",
+          "note": "commonground-cfn-2026-10-12; opening balance 25 kg",
+          "action": "raise",
+          "quantity": 25,
+          "sourceResourceId": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+          "note": "commonground-cfn-2026-10-12; UI prepare-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "action": "produce",
+          "quantity": 5,
+          "sourceResourceId": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkxBpUxLTWsPacAIcmyEaLnQhSdzzdTqNVUGYxtLBwRM8sx6os",
+          "note": "commonground-cfn-2026-10-12; UI spin-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkSaZkm2HRp4h6-jEX5Zxa3UkVgrxhv1a1Zap-HESLnmqWv0vY",
+          "note": "commonground-cfn-2026-10-12; UI spin-produce",
+          "action": "produce",
+          "quantity": 4,
+          "sourceResourceId": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkNJtNL83MHFHfSYKRRaZIg5a8WFB3SErubf2V3qemq7X-M2TS",
+          "note": "commonground-cfn-2026-10-12; UI Activity transfer",
+          "action": "transfer",
+          "quantity": 4,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkyjnkCbTZtM4_x_ZtxYHwo1t6Y_8z74ygp7Bm89ALdjy1G_4d",
+          "note": "commonground-cfn-2026-10-12; API probe opening 10 kg",
+          "action": "raise",
+          "quantity": 10,
+          "sourceResourceId": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkk94dRNvhRS4uyT5aICeYH078aJbL103tCSJ0hbrNyV89YSKpI",
+          "note": "commonground-cfn-2026-10-12; API probe consume 2 kg with explicit lot",
+          "action": "consume",
+          "quantity": 2,
+          "sourceResourceId": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+          "destinationResourceId": null
+        }
+      ]
+    },
+    {
+      "phase": "after-api-probe-transfer",
+      "port": 9222,
+      "observedAt": "2026-10-12T10:19:54.539Z",
+      "resources": [
+        {
+          "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "name": "CG CFN Raw lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-raw",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 25,
+          "onhand": 25,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        },
+        {
+          "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "name": "CG CFN Prepared fiber 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 5,
+          "onhand": 5,
+          "stageId": null
+        },
+        {
+          "id": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "name": "CG CFN Yarn 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 4,
+          "onhand": 4,
+          "stageId": null
+        },
+        {
+          "id": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+          "name": "CG CFN API probe destination 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-probe-destination",
+          "ownerId": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+          "accounting": 0,
+          "onhand": 0,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        },
+        {
+          "id": "uhCkkYNmSb5gz_ZXj7hg0H8wI3gwcV_hhHrE394dz9xD5uuVEXeUt",
+          "name": "CG CFN API probe lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-probe",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 8,
+          "onhand": 8,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        }
+      ],
+      "events": [
+        {
+          "id": "uhCkk_WipD-fKfsN4qIWMCK-9-xj-LsB_bslViEg0p4gHIeaGzW6v",
+          "note": "commonground-cfn-2026-10-12; opening balance 25 kg",
+          "action": "raise",
+          "quantity": 25,
+          "sourceResourceId": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+          "note": "commonground-cfn-2026-10-12; UI prepare-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "action": "produce",
+          "quantity": 5,
+          "sourceResourceId": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkxBpUxLTWsPacAIcmyEaLnQhSdzzdTqNVUGYxtLBwRM8sx6os",
+          "note": "commonground-cfn-2026-10-12; UI spin-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkSaZkm2HRp4h6-jEX5Zxa3UkVgrxhv1a1Zap-HESLnmqWv0vY",
+          "note": "commonground-cfn-2026-10-12; UI spin-produce",
+          "action": "produce",
+          "quantity": 4,
+          "sourceResourceId": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkNJtNL83MHFHfSYKRRaZIg5a8WFB3SErubf2V3qemq7X-M2TS",
+          "note": "commonground-cfn-2026-10-12; UI Activity transfer",
+          "action": "transfer",
+          "quantity": 4,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkyjnkCbTZtM4_x_ZtxYHwo1t6Y_8z74ygp7Bm89ALdjy1G_4d",
+          "note": "commonground-cfn-2026-10-12; API probe opening 10 kg",
+          "action": "raise",
+          "quantity": 10,
+          "sourceResourceId": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkk94dRNvhRS4uyT5aICeYH078aJbL103tCSJ0hbrNyV89YSKpI",
+          "note": "commonground-cfn-2026-10-12; API probe consume 2 kg with explicit lot",
+          "action": "consume",
+          "quantity": 2,
+          "sourceResourceId": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkixgN8heAHv7xXSJCWwvjYgSp51rWi3DkxUgpDcQZYe1QBEBk",
+          "note": "commonground-cfn-2026-10-12; API probe transfer 3 kg with explicit source and target",
+          "action": "transfer",
+          "quantity": 3,
+          "sourceResourceId": "uhCkklrf6DfjUQFQ3LFaLZ7duGfBQh_0NUAQL0FuTIY247c3UIQtA",
+          "destinationResourceId": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C"
+        },
+        {
+          "id": "uhCkktDkf6UjRAdawFk5mojueI0sluWrwWX-T6XxrhptJL-9yiUw0",
+          "note": "commonground-cfn-2026-10-12; API probe destination zero balance",
+          "action": "raise",
+          "quantity": 0,
+          "sourceResourceId": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+          "destinationResourceId": null
+        }
+      ]
+    },
+    {
+      "phase": "peer2-after-api-probe-transfer",
+      "port": 9223,
+      "observedAt": "2026-10-12T10:20:26.956Z",
+      "resources": [
+        {
+          "id": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "name": "CG CFN Raw lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-raw",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 25,
+          "onhand": 25,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        },
+        {
+          "id": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "name": "CG CFN Prepared fiber 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 5,
+          "onhand": 5,
+          "stageId": null
+        },
+        {
+          "id": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "name": "CG CFN Yarn 2026-10-12",
+          "trackingIdentifier": null,
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 4,
+          "onhand": 4,
+          "stageId": null
+        },
+        {
+          "id": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+          "name": "CG CFN API probe destination 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-probe-destination",
+          "ownerId": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+          "accounting": 0,
+          "onhand": 0,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        },
+        {
+          "id": "uhCkkYNmSb5gz_ZXj7hg0H8wI3gwcV_hhHrE394dz9xD5uuVEXeUt",
+          "name": "CG CFN API probe lot 2026-10-12",
+          "trackingIdentifier": "commonground-cfn-2026-10-12-probe",
+          "ownerId": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "accounting": 8,
+          "onhand": 8,
+          "stageId": "uhCkkHT-zM-cltz1ixQWvYy_hNqnA3zTinVzHPzuwnuPvFT2nllMe"
+        }
+      ],
+      "events": [
+        {
+          "id": "uhCkk_WipD-fKfsN4qIWMCK-9-xj-LsB_bslViEg0p4gHIeaGzW6v",
+          "note": "commonground-cfn-2026-10-12; opening balance 25 kg",
+          "action": "raise",
+          "quantity": 25,
+          "sourceResourceId": "uhCkkcVinDcKzxN0XgA1G_eP3xwZTv9b9yz6QEqSC5wY-OClRa1gz",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkPFrCg_kczkEKQhenN7ydGFbUGca5g0C0DUfXyB98EiPtagEW",
+          "note": "commonground-cfn-2026-10-12; UI prepare-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkmfSQ1ir_GjXVQXuGjjyZfVYVGa9K7c2G1KZeCD1ZX9wYcO5w",
+          "note": "commonground-cfn-2026-10-12; UI prepare-produce",
+          "action": "produce",
+          "quantity": 5,
+          "sourceResourceId": "uhCkkxBo47rNKKjCUiYkyRbEmPrhYaIxt6tOKT8PRjD5pyHpfiWzT",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkxBpUxLTWsPacAIcmyEaLnQhSdzzdTqNVUGYxtLBwRM8sx6os",
+          "note": "commonground-cfn-2026-10-12; UI spin-consume",
+          "action": "consume",
+          "quantity": 5,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkSaZkm2HRp4h6-jEX5Zxa3UkVgrxhv1a1Zap-HESLnmqWv0vY",
+          "note": "commonground-cfn-2026-10-12; UI spin-produce",
+          "action": "produce",
+          "quantity": 4,
+          "sourceResourceId": "uhCkkBe0H7GDyl2pv53olWOqcX7sCtbnaL5_xm3JBQi5l3-GIqiHq",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkNJtNL83MHFHfSYKRRaZIg5a8WFB3SErubf2V3qemq7X-M2TS",
+          "note": "commonground-cfn-2026-10-12; UI Activity transfer",
+          "action": "transfer",
+          "quantity": 4,
+          "sourceResourceId": null,
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkyjnkCbTZtM4_x_ZtxYHwo1t6Y_8z74ygp7Bm89ALdjy1G_4d",
+          "note": "commonground-cfn-2026-10-12; API probe opening 10 kg",
+          "action": "raise",
+          "quantity": 10,
+          "sourceResourceId": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkk94dRNvhRS4uyT5aICeYH078aJbL103tCSJ0hbrNyV89YSKpI",
+          "note": "commonground-cfn-2026-10-12; API probe consume 2 kg with explicit lot",
+          "action": "consume",
+          "quantity": 2,
+          "sourceResourceId": "uhCkkV_Nsq4R6BvfEVn7yw-faP4jR7rkgIYmSYfaIoqY8ghnnAmlb",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkktDkf6UjRAdawFk5mojueI0sluWrwWX-T6XxrhptJL-9yiUw0",
+          "note": "commonground-cfn-2026-10-12; API probe destination zero balance",
+          "action": "raise",
+          "quantity": 0,
+          "sourceResourceId": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+          "destinationResourceId": null
+        },
+        {
+          "id": "uhCkkixgN8heAHv7xXSJCWwvjYgSp51rWi3DkxUgpDcQZYe1QBEBk",
+          "note": "commonground-cfn-2026-10-12; API probe transfer 3 kg with explicit source and target",
+          "action": "transfer",
+          "quantity": 3,
+          "sourceResourceId": "uhCkklrf6DfjUQFQ3LFaLZ7duGfBQh_0NUAQL0FuTIY247c3UIQtA",
+          "destinationResourceId": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C"
+        }
+      ]
+    }
+  ],
+  "signedResourceReadback": [
+    {
+      "port": 9222,
+      "app": {
+        "agent": "uhCAkv_4GxdT8mZKZjNa3ICnZcxCFFEYAaplYTIzT9_7CMvF8A2FC",
+        "cellInfoShapes": {
+          "migration": [
+            {
+              "keys": [
+                "type",
+                "value"
+              ],
+              "type": "provisioned",
+              "valueKeys": [
+                "cell_id",
+                "dna_modifiers",
+                "name"
+              ],
+              "dna": "uhC0kK-mNc4FNAoRyn6qrL-tO7pr6GJul3GvXKvnHl4ghVc804TEk"
+            }
+          ],
+          "hrea": [
+            {
+              "keys": [
+                "type",
+                "value"
+              ],
+              "type": "provisioned",
+              "valueKeys": [
+                "cell_id",
+                "dna_modifiers",
+                "name"
+              ],
+              "dna": "uhC0k5ZfeLQrwtwO7TroO9QovlPQ5w3yW5cXpijlNIa1epXl2tI4l"
+            }
+          ],
+          "hrea_facets_0": [
+            {
+              "keys": [
+                "type",
+                "value"
+              ],
+              "type": "provisioned",
+              "valueKeys": [
+                "cell_id",
+                "dna_modifiers",
+                "name"
+              ],
+              "dna": "uhC0kIPOkgqf036jAstrhTvbFJfSf4UTQ7zBoqFG8zvg-lh06rYjQ"
+            }
+          ]
+        }
+      },
+      "actors": [
+        {
+          "name": "CG CFN Workshop 2026-10-12",
+          "author": "uhCAkuzoB5WAA_Mq1c329ipIhQ1rPBaNf4d7LXLkWeZf7KkpCxjB4"
+        },
+        {
+          "name": "CG CFN Farm 2026-10-12",
+          "author": "uhCAkv_4GxdT8mZKZjNa3ICnZcxCFFEYAaplYTIzT9_7CMvF8A2FC"
+        }
+      ],
+      "resources": [
+        {
+          "label": "commonground-cfn-2026-10-12-probe-destination",
+          "requestedId": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+          "returnedRevision": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+          "accountingQuantity": 0,
+          "onhandQuantity": 0,
+          "primaryAccountable": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+          "storedId": null
+        },
+        {
+          "label": "commonground-cfn-2026-10-12-probe",
+          "requestedId": "uhCkkYNmSb5gz_ZXj7hg0H8wI3gwcV_hhHrE394dz9xD5uuVEXeUt",
+          "returnedRevision": "uhCkkYNmSb5gz_ZXj7hg0H8wI3gwcV_hhHrE394dz9xD5uuVEXeUt",
+          "accountingQuantity": 8,
+          "onhandQuantity": 8,
+          "primaryAccountable": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "storedId": null
+        }
+      ]
+    },
+    {
+      "port": 9223,
+      "app": {
+        "agent": "uhCAkuzoB5WAA_Mq1c329ipIhQ1rPBaNf4d7LXLkWeZf7KkpCxjB4",
+        "cellInfoShapes": {
+          "migration": [
+            {
+              "keys": [
+                "type",
+                "value"
+              ],
+              "type": "provisioned",
+              "valueKeys": [
+                "cell_id",
+                "dna_modifiers",
+                "name"
+              ],
+              "dna": "uhC0kK-mNc4FNAoRyn6qrL-tO7pr6GJul3GvXKvnHl4ghVc804TEk"
+            }
+          ],
+          "hrea_facets_0": [
+            {
+              "keys": [
+                "type",
+                "value"
+              ],
+              "type": "provisioned",
+              "valueKeys": [
+                "cell_id",
+                "dna_modifiers",
+                "name"
+              ],
+              "dna": "uhC0kIPOkgqf036jAstrhTvbFJfSf4UTQ7zBoqFG8zvg-lh06rYjQ"
+            }
+          ],
+          "hrea": [
+            {
+              "keys": [
+                "type",
+                "value"
+              ],
+              "type": "provisioned",
+              "valueKeys": [
+                "cell_id",
+                "dna_modifiers",
+                "name"
+              ],
+              "dna": "uhC0k5ZfeLQrwtwO7TroO9QovlPQ5w3yW5cXpijlNIa1epXl2tI4l"
+            }
+          ]
+        }
+      },
+      "actors": [
+        {
+          "name": "CG CFN Workshop 2026-10-12",
+          "author": "uhCAkuzoB5WAA_Mq1c329ipIhQ1rPBaNf4d7LXLkWeZf7KkpCxjB4"
+        },
+        {
+          "name": "CG CFN Farm 2026-10-12",
+          "author": "uhCAkv_4GxdT8mZKZjNa3ICnZcxCFFEYAaplYTIzT9_7CMvF8A2FC"
+        }
+      ],
+      "resources": [
+        {
+          "label": "commonground-cfn-2026-10-12-probe-destination",
+          "requestedId": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+          "returnedRevision": "uhCkkMWTbcpzQo5eC9EqDBAeT4RjkNTBMcD_0I18hv2YoxXepjA7C",
+          "accountingQuantity": 0,
+          "onhandQuantity": 0,
+          "primaryAccountable": "uhCkkwaqkbabR9w7Dr6Z5l8V91RETcyPnD_GCzbVjVpPWwojnzWMw",
+          "storedId": null
+        },
+        {
+          "label": "commonground-cfn-2026-10-12-probe",
+          "requestedId": "uhCkkYNmSb5gz_ZXj7hg0H8wI3gwcV_hhHrE394dz9xD5uuVEXeUt",
+          "returnedRevision": "uhCkkYNmSb5gz_ZXj7hg0H8wI3gwcV_hhHrE394dz9xD5uuVEXeUt",
+          "accountingQuantity": 8,
+          "onhandQuantity": 8,
+          "primaryAccountable": "uhCkk9SGY1c72J-OUNVBD2f9Nz4gxTV-3Kt1Affy-qes011hDqT7U",
+          "storedId": null
+        }
+      ]
+    }
+  ],
+  "uiRequestEditFailure": {
+    "message": "Cannot read properties of null (reading 'id')",
+    "location": "_app/immutable/chunks/_helper.63340933.js:9:7939",
+    "trigger": "Plans / new: Create from requests; first request pencil button"
+  },
+  "harnessCorrections": [
+    "created must use the numeric timestamp expected by this CFN adapter; ISO-string seed was rejected before plan creation",
+    "GraphQL selection braces corrected before successful readback",
+    "duplicate DOM IDs addressed by visible indexed selectors"
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "url": "applet://uhc$e$kko$c$v$oso$n$b-y$u$5qj$iuf$f$s$e$qck$wj8i$_hm$9dji$3h$xo$b$w$i$hg$g$v$b$n/?view=applet-view&view-type=main&view-location=main&group-hash=uhC0krNEKqfJElXiGLUwzy4Gzwz_DOH4x9Ls-IQW94oaCPvS73gHz#!/transactions",
+  "transaction": {
+    "id": "uhCkktidjnB1fYbgCZvJRYD0QaJ_9SQw7Vk4U9EtrcH9M1VsKun5X",
+    "tx_type": "Accept",
+    "amount": {
+      "0": "30"
+    },
+    "counterparty": [
+      "uhCAkv_4GxdT8mZKZjNa3ICnZcxCFFEYAaplYTIzT9_7CMvF8A2FC"
+    ],
+    "history": [
+      {
+        "id": "uhCkkmesOWWuMaHlzdN7QhuJguke1h_RyJGDYJDboUiEm1kxGQUW5",
+        "tx_type": "Commitment",
+        "amount": {
+          "0": "-30"
+        },
+        "counterparty": [
+          "uhCAkuzoB5WAA_Mq1c329ipIhQ1rPBaNf4d7LXLkWeZf7KkpCxjB4"
+        ],
+        "history": [],
+        "timestamp": 1791738253788089,
+        "creator": "uhCAkv_4GxdT8mZKZjNa3ICnZcxCFFEYAaplYTIzT9_7CMvF8A2FC",
+        "details": {
+          "Commitment": {
+            "proposal_hash": null,
+            "payload": {
+              "SimpleNote": "commonground-bread-v1; 30 ZF test credit; no real funds; cooperative -> bakery"
+            },
+            "ledger": {
+              "balance": {
+                "0": "-30"
+              },
+              "carry_forward_units": {},
+              "fees_owed": "0",
+              "proposed_balance": {}
+            },
+            "global_definition": "uhCkk5cuq_Zg692cqOU6bkNdatssy_rtPZSWbzSzA0UhOBUdqqSl_",
+            "lane_definitions": []
+          }
+        }
+      }
+    ],
+    "timestamp": 1791738306464454,
+    "creator": "uhCAkuzoB5WAA_Mq1c329ipIhQ1rPBaNf4d7LXLkWeZf7KkpCxjB4",
+    "details": {
+      "Accept": {
+        "payload": "None",
+        "ledger": {
+          "balance": {
+            "0": "30"
+          },
+          "carry_forward_units": {},
+          "fees_owed": "0",
+          "proposed_balance": {}
+        },
+        "global_definition": "uhCkk5cuq_Zg692cqOU6bkNdatssy_rtPZSWbzSzA0UhOBUdqqSl_",
+        "lane_definitions": []
+      }
+    }
+  },
+  "status": {
+    "status": "Completed",
+    "initial_amount": {
+      "0": "30"
+    },
+    "action_message": "no more actions required",
+    "related_transaction": [],
+    "validation_receipts": [
+      {
+        "op_hash": [
+          132,
+          36,
+          36,
+          18,
+          30,
+          18,
+          152,
+          99,
+          195,
+          253,
+          63,
+          127,
+          174,
+          89,
+          179,
+          130,
+          192,
+          125,
+          157,
+          91,
+          150,
+          21,
+          13,
+          200,
+          200,
+          42,
+          177,
+          129,
+          166,
+          247,
+          192,
+          120,
+          32,
+          218,
+          171,
+          167,
+          19,
+          74,
+          188
+        ],
+        "op_type": "RegisterAgentActivity",
+        "receipts_complete": false,
+        "receipts": [
+          {
+            "validation_status": "Valid",
+            "validators": [
+              [
+                132,
+                32,
+                36,
+                191,
+                254,
+                6,
+                197,
+                212,
+                252,
+                153,
+                146,
+                153,
+                140,
+                214,
+                183,
+                32,
+                41,
+                217,
+                115,
+                16,
+                133,
+                20,
+                70,
+                0,
+                106,
+                153,
+                88,
+                76,
+                140,
+                211,
+                247,
+                254,
+                194,
+                50,
+                241,
+                124,
+                3,
+                97,
+                66
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "uhCkktidjnB1fYbgCZvJRYD0QaJ_9SQw7Vk4U9EtrcH9M1VsKun5X"
+  }
+}

@@ -1,0 +1,356 @@
+[
+  {
+    "id": "vines",
+    "title": "Vines",
+    "version": "1.28.2",
+    "branch": "1.28.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/lightningrodlabs/vines/releases/download/we-applet-rc/vines-we_applet-1.28.2.webhapp",
+    "hashes": {
+      "happSha256": "c6efb4bf325483700c7aad91391e0fd38e7437a916ec182da51d6fec938cd772",
+      "webhappSha256": "ea5ddab797470525d38e93d4ffe256233ec10f5f413fd4521aabf7f754e66396",
+      "uiSha256": "49c16895654e5c331e7c6ec61d24ea497295a61cd7a48614162b0593649c2e78"
+    },
+    "installation": {
+      "id": "vines",
+      "version": "1.28.2",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEkgJHIN2a2OCyKX1jdvNDjvSPGAbHiFDDhGWGpIOiFEFkemLK9",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "acorn",
+    "title": "Acorn",
+    "version": "12.0.0",
+    "branch": "12.0.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/lightningrodlabs/acorn/releases/download/happ-v12.0.0/acorn.webhapp",
+    "hashes": {
+      "happSha256": "54245ec729ae283b19b8d7390ffd3bbadcb634f072d1bb93dde1f919d8d0edaf",
+      "webhappSha256": "9bb73d1cc0e48ded3fad1d780af684741ba712ae46a5255527a4f7083e55d8e3",
+      "uiSha256": "dc299529e420e4509fddf5d77dc94608177d60b7d266ad0dc143cb93fe26b000"
+    },
+    "installation": {
+      "id": "acorn",
+      "version": "12.0.0",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEkpXZFZpMnM458k9x0J+0JlLhch0RNu7ohel7iJ2dPp3ru46Jq",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "files",
+    "title": "Files",
+    "version": "1.4.0",
+    "branch": "1.4.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/lightningrodlabs/files/releases/download/we-applet-rc/files-we_applet-1.4.0.webhapp",
+    "hashes": {
+      "happSha256": "9d255489bca333f6b95b91d2caac0d43970718e89cf7a20c30d5c2a73752c87d",
+      "webhappSha256": "53c19354d297685d9e796ea0723c203b674b3122f975387c1fefe777a41aa287",
+      "uiSha256": "2e5104687ada09445ce5e46f952812b5bd1c4ed64d3dd12bdebf0d61785cead2"
+    },
+    "installation": {
+      "id": "files",
+      "version": "1.4.0",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEk4KnpVlyx7w6RZINaS61BhZYIAOeblFdkr49Et+myVzKZIsn9",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "notebooks",
+    "title": "Notebooks",
+    "version": "0.6.13",
+    "branch": "0.6.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/lightningrodlabs/notebooks/releases/download/v0.6.13/notebooks.webhapp",
+    "hashes": {
+      "happSha256": "8a7584239b7cd4349b08f8083c9dd479b9dc112112cda5c58757f0aff1dda750",
+      "webhappSha256": "e5e8b8d63e4ec187596d9716737a71f352c15d8874735e944f25a362c9a6613f",
+      "uiSha256": "6fb5f818bcd51f497cacba5ee127918e7fc2d3ce094f33d228183c51b1ead9f9"
+    },
+    "installation": {
+      "id": "notebooks",
+      "version": "0.6.13",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEk2fOryBfmNjWh8z/9m9UzfN6f0djZgYAOX5L7RYrz674JCu0F",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "kando",
+    "title": "KanDo",
+    "version": "0.17.5",
+    "branch": "0.17.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/holochain-apps/kando/releases/download/v0.17.5/kando.webhapp",
+    "hashes": {
+      "happSha256": "ba24515530be7d6c0e279ded61b2e1559ac3d950af68d0414b00811b38df2322",
+      "webhappSha256": "3b61d6deee6d4e4974f82cec1f0ff7c88bf85e88d26f8f8921160f2f25cf957a",
+      "uiSha256": "abaa47c4515f8d369941d121e9a63c8a32fc132a6bb9478c0a05ed3472252718"
+    },
+    "installation": {
+      "status": "existing installation verified in UI",
+      "appletEntryHashBase64": "hCEkSxfpHXwjE+ki2M7G2CR1CS1NZqecz09RuuUvsdufTqWBOLR5",
+      "note": "KanDo already existed; it was not reinstalled. DNA reports 0.17.0; catalog webhapp release is 0.17.5."
+    }
+  },
+  {
+    "id": "talking-stickies",
+    "title": "TalkingStickies",
+    "version": "0.15.2",
+    "branch": "0.15.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/holochain-apps/talking-stickies/releases/download/v0.15.2/talking-stickies.webhapp",
+    "hashes": {
+      "happSha256": "1c6e35da1ccf4ec67ab1d4a9bb0b6739d5d94b0f3b252b615c2f87f9de19df6d",
+      "webhappSha256": "aafd09d2845d34445ce103f76e2d6ff41dfcd9cb0cc833f049190aaaff56fa3a",
+      "uiSha256": "69437e1b88476680e435b9a47952b22c577daa455c3d0b10c7413fe0f8ff8c48"
+    },
+    "installation": {
+      "id": "talking-stickies",
+      "version": "0.15.2",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEkwNF/MLzZPiVfzkcF5qaChV9LKuLfL0LhTKivowEPglKezGQ3",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "spreadsheets",
+    "title": "Spreadsheets",
+    "version": "0.2.3",
+    "branch": "0.2.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/lightningrodlabs/sweet/releases/download/v0.10.6/calcy.webhapp",
+    "hashes": {
+      "happSha256": "6f3a8a4c997edcdde7dd49130ccba294835477eeb8b6ccf3edc04f4a70730448",
+      "webhappSha256": "322d31115ad202954f46d22b093aa4dc92f44f23b7dda32876c8b103928b65b0",
+      "uiSha256": "aa9eb1acfad1c7be5b7fbd9dcdb5b0a3b51779ac5ea02c9e2f0893102704d7a8"
+    },
+    "installation": {
+      "id": "spreadsheets",
+      "version": "0.2.3",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEkIZaMUuny9ONads86pGEGUp//ft1Zj8S22ZWZvHdkox3o+1ME",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "acfn",
+    "title": "Carbon Farm Network App",
+    "version": "0.6.0",
+    "branch": "0.6.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/Carbon-Farm-Network/app-carbon-farm-network/releases/download/v0.6.0/acfn.webhapp",
+    "hashes": {
+      "happSha256": "721cc880a07f762517a712ec9d60576f568972e741a394b5f52a69725d2d39df",
+      "webhappSha256": "1647ac52aafa046c9ee11b0c4db2552254a0f4f0f516c4f00720df5e90678c0c",
+      "uiSha256": "f8fdeb3a5f103278a62b8472a2629ddf30fdfe3d34270cbee16df3334cb686af"
+    },
+    "installation": {
+      "id": "acfn",
+      "version": "0.6.0",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEkVwWdvlng/uKAp4EUgBjpnaeNTCXzn3O3N/iVSPkVS8A3aGr5",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "slate",
+    "title": "Slate",
+    "version": "0.4.5",
+    "branch": "0.4.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/lightningrodlabs/slate/releases/download/v0.4.5/slate.webhapp",
+    "hashes": {
+      "happSha256": "ea48c2d9fb1dd4459a0fc7a383aeea04e426dba591651f85229740426585bd99",
+      "webhappSha256": "2bf02ad1901cbc6fd020842db2ec1b31156e9d1203ebad3a322214499b553d50",
+      "uiSha256": "e6ffca7faa2540c74008a53ebc0ed90779623aa977aca5a8e19a1c2e71fef224"
+    },
+    "installation": {
+      "id": "slate",
+      "version": "0.4.5",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEkvuMJ4Sm/jHsAUfW6uE4fjtusQlFlzIY4iRjFM4mmn4TQBYYU",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "gamez",
+    "title": "Gamez",
+    "version": "0.9.3",
+    "branch": "0.9.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/holochain-apps/gamez/releases/download/v0.9.3/gamez.webhapp",
+    "hashes": {
+      "happSha256": "63f99687127a3d6c8e8684c8a95874360fe40ea7aebe6d1bcbaafb9c4bee9e5c",
+      "webhappSha256": "a9c329fefece980dd1a129bdc7152b199ba5104a5aba478f55d354b0e380e4bd",
+      "uiSha256": "0a75c4e80fb02920023a8d91eeaec16145e7d17a56fb871ad90885fbd18535ae"
+    },
+    "installation": {
+      "id": "gamez",
+      "version": "0.9.3",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEks5POYJRDLUxYJlHqa5sc9LbOHwG/V9+kWX87KBDUSMBxYfcX",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "converge",
+    "title": "Converge",
+    "version": "0.3.2",
+    "branch": "0.3.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/lightningrodlabs/converge/releases/download/0.3.2/converge.webhapp",
+    "hashes": {
+      "happSha256": "3a965d591dcc49ff97fdb4e2d1b4f9d193fe9092a260c9242eff9ad5527c6a2f",
+      "webhappSha256": "449086e39b1f2fc603021f6541988f1d8415daf5b6f5cbfc96c4597ac5492525",
+      "uiSha256": "b8532576f68da4b6de8442cdb7b96d5437e524aa57c4ac29ee45588cf45017a2"
+    },
+    "installation": {
+      "id": "converge",
+      "version": "0.3.2",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEkwZc10SDVWtDjO36XxvYsF05Az88FH+MVxFvLC0NQSnuzvfd4",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "whosin",
+    "title": "Who's In?",
+    "version": "0.2.4",
+    "branch": "0.2.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/lightningrodlabs/whos-in/releases/download/v0.2.4/whosin.webhapp",
+    "hashes": {
+      "happSha256": "5c9b45ce578f1a6cfddcd8c231ccbe6bf21aac8322178f7b561d6cb529d309e1",
+      "webhappSha256": "a3b1c3b377edcdfb8d6ac360f89704267be4361c193e8d82c9170edc9346e0a1",
+      "uiSha256": "5dd6a2a51945266d2a08a18d11786aac1998276834944f502ae307f27845b960"
+    },
+    "installation": {
+      "id": "whosin",
+      "version": "0.2.4",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEkvbRoqqsNOas+wDcMqCQR8nZRmDAfmblkOrd/j7zk6Uq7nSni",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "farmhack",
+    "title": "FarmHack",
+    "version": "0.1.0",
+    "branch": "0.1.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/lightningrodlabs/farmhack/releases/download/v0.1.0/farmhack.webhapp",
+    "hashes": {
+      "happSha256": "9e4e89d573b4ea98f3906ae6cffbb53a0a9752ef3e5f299ca9330b964447438f",
+      "webhappSha256": "30d9624b7ed8eb090b9aa3dd3599d8a2e615e53f87dd3985b33d6a1511ce1de5",
+      "uiSha256": "a54300824a05fdfce27e9f45dfd7f2fee94477dda8793f9090b6d4291790bc64"
+    },
+    "installation": {
+      "id": "farmhack",
+      "version": "0.1.0",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEkiW8rY98nvawBWy2cXs8Iwkg5P7cfYaIB2syDctdpb3wCvHDw",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "glass-bead-game",
+    "title": "Glass Bead Game",
+    "version": "0.3.0",
+    "branch": "0.3.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/lightningrodlabs/glass-bead-game/releases/download/v0.3.0/glassbeadgame.webhapp",
+    "hashes": {
+      "happSha256": "8c47fd1a4391b04413c0aaca9d0be136e69181aada6aeb9861ec89d32ede4cd2",
+      "webhappSha256": "38bf8c6b7f46c9098b82d547b34308d63ce49e0a36d833bee384ab0f1118792c",
+      "uiSha256": "30944f3766612ca46b396755084f1a59ed13dbbba2122f167e138c562df7b4c2"
+    },
+    "installation": {
+      "id": "glass-bead-game",
+      "version": "0.3.0",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEk/vUqCv9yP/POrWN11QHq2cwIPEsviczzmmFLkQdZzQZB2Ihg",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  },
+  {
+    "id": "ark",
+    "title": "Ark",
+    "version": "0.1.2",
+    "branch": "0.1.x",
+    "source": "https://lightningrodlabs.org/weave-tool-curation/0.15/tool-list-0.15.json",
+    "url": "https://github.com/lightningrodlabs/ark/releases/download/ark-v0.1.2-hc0.6/ark.webhapp",
+    "hashes": {
+      "happSha256": "42ec54d9a42d9ec9e3cddfaf84be0327fc8c9986482b8ab2b26dd9ddf73fc43c",
+      "webhappSha256": "377512b1fa37a509de9fa8bcbf36d86f79f565b6cdf7203aec643024108b55df",
+      "uiSha256": "31d805c0e5478e5032b257b64470b3decde7ea49e9afb6de957ac3e7ff5950ad"
+    },
+    "installation": {
+      "id": "ark",
+      "version": "0.1.2",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEk6s7EzFQexp1TcBLfz2yhXJiXZit1VPCmm/6nqFvIuiSeE339",
+      "hashesVerified": true,
+      "happHashSchema": "current"
+    }
+  },
+  {
+    "id": "matthme.rhymez",
+    "title": "Rhymez",
+    "version": "0.2.0",
+    "branch": "0.2.x",
+    "source": "https://raw.githubusercontent.com/matthme/weave-tool-curation/refs/heads/main/0.15/lists/tool-list-0.15.json",
+    "url": "https://codeberg.org/matthme/rhymez/releases/download/0.2.0/rhymez.webhapp",
+    "hashes": {
+      "happSha256": "e0e61c82bba6e66048c8571cff7f3e01f521facd77414bd4cd0b0072b26f5ab0",
+      "webhappSha256": "609040b24805f4385ed58ad832b57bab8fb830788f9abb1ac1d1cdd474d6b091",
+      "uiSha256": "5d4af0e8df2ea8ae2e4d9e2bd0a0c86afc861cd9a1ec7c4bf7ef61663064b988"
+    },
+    "installation": {
+      "id": "matthme.rhymez",
+      "version": "0.2.0",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEkNIOcJ0FjIOw6R8z9mHYLlNxub0rGbO4lL57N7WC7/p3ASLQt",
+      "hashesVerified": true,
+      "happHashSchema": "current"
+    }
+  },
+  {
+    "id": "unyt",
+    "title": "Unyt",
+    "version": "0.90.0",
+    "branch": "0.90.x",
+    "source": "https://raw.githubusercontent.com/unytco/unyt-moss/refs/heads/main/0.15/lists/tool-list-0.15.json",
+    "url": "https://github.com/unytco/unyt-moss/releases/download/v0.90.0/unyt.webhapp",
+    "hashes": {
+      "happSha256": "4711b3b0ac10ff4e6aeda7cb29fd980fe7f4f0aba235a9328c6e8409310e8700",
+      "webhappSha256": "ef5cbec3bd73162b78306a42885e80aae2346bff44e584658121017d61633a50",
+      "uiSha256": "52470caded45c9185e4728ccf79ec95394d4fdcd7b0f47a16c3b6cd1ca40ecd0"
+    },
+    "installation": {
+      "id": "unyt",
+      "version": "0.90.0",
+      "status": "installed",
+      "appletEntryHashBase64": "hCEkkOCVosONb+YU5qJiuFFSEqcKwj8I/hM9djI3HxOBWIhGGVBn",
+      "hashesVerified": true,
+      "happHashSchema": "legacy Moss 0.15"
+    }
+  }
+]
